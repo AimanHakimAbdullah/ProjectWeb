@@ -1,0 +1,297 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Successfully add new language",
+        "description": "",
+        "id": "add-new-language-bdd;successfully-add-new-language;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18430841100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is navigated to Language Page",
+            "match": {
+              "location": "stepAddNewLanguage.UserNavigatedtoLangPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 953664800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the Add Language button",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_on_Add_Language_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1625155900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters preferred language Malay",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Malay",
+                  "offset": 31
+                }
+              ],
+              "location": "stepAddNewLanguage.Enters_preferred_Language(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 386219300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Save button at Language page",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_Savebutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1609672200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User able to add and save Language successfully",
+            "match": {
+              "location": "stepAddNewLanguage.AbletoSaveLanguage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Successfully add new language",
+        "description": "",
+        "id": "add-new-language-bdd;successfully-add-new-language;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17703449800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is navigated to Language Page",
+            "match": {
+              "location": "stepAddNewLanguage.UserNavigatedtoLangPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1938389500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the Add Language button",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_on_Add_Language_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2451386900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters preferred language Tamil",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamil",
+                  "offset": 31
+                }
+              ],
+              "location": "stepAddNewLanguage.Enters_preferred_Language(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 376272300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Save button at Language page",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_Savebutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1536426600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User able to add and save Language successfully",
+            "match": {
+              "location": "stepAddNewLanguage.AbletoSaveLanguage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Fail to add existing language",
+        "description": "",
+        "id": "add-new-language-bdd;fail-to-add-existing-language;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17675173600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is navigated to Language Page",
+            "match": {
+              "location": "stepAddNewLanguage.UserNavigatedtoLangPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1890622800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the Add Language button",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_on_Add_Language_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1949950300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters exist language Russian",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Russian",
+                  "offset": 27
+                }
+              ],
+              "location": "stepAddNewLanguage.Enters_existing_Language(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503856400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on Save button at Language page",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_Savebutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 968062200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is shown popup messages on already exist",
+            "match": {
+              "location": "stepAddNewLanguage.Popupmessagesalreadyexist()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Language leave blank",
+        "description": "",
+        "id": "add-new-language-bdd;language-leave-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Call Test Case \u0027Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)\u0027 failed\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\r\n\tat addNewLanguage.stepAddNewLanguage.UserNavigatedtoLangPage(stepAddNewLanguage.groovy:54)\r\n\tat ✽.User is navigated to Language Page(C:/Users/Aiman Hakim/Katalon Studio/PROJECT WEB_ASSESSMENT PROTEGE/Include/features/Add New Language_BDD.feature:35)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object \u0027Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard\u0027 is present\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)\r\n\tat LF1_TC1_SUCCESSFULY LOGIN (P).run(LF1_TC1_SUCCESSFULY LOGIN (P):32)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\r\n\tat addNewLanguage.stepAddNewLanguage.UserNavigatedtoLangPage(stepAddNewLanguage.groovy:54)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:70)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:52)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat AddNewLanguage.run(AddNewLanguage:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1685529916380.run(TempTestSuite1685529916380.groovy:36)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: \u0027Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard\u0027 located by \u0027//div[@id\u003d\u0027app\u0027]/div/div/header/div/div/span/h6\u0027 not found\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\t... 59 more\r\n",
+              "duration": 81756670300,
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "User is navigated to Language Page",
+            "match": {
+              "location": "stepAddNewLanguage.UserNavigatedtoLangPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User clicks on the Add Language button",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_on_Add_Language_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "User clicks on Save button at Language page",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_Savebutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "User is shown with messages on required",
+            "match": {
+              "location": "stepAddNewLanguage.Requiredmessages()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add New Language_BDD",
+    "description": "",
+    "id": "add-new-language-bdd",
+    "keyword": "Feature",
+    "uri": "C:/Users/Aiman Hakim/Katalon Studio/PROJECT WEB_ASSESSMENT PROTEGE/Include/features/Add New Language_BDD.feature",
+    "tags": []
+  }
+]

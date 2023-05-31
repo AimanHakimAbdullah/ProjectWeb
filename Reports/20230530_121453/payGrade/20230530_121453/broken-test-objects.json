@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input)[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230530_121453/payGrade/20230530_121453/Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade_idRelative.png"
+    }
+  ]
+}

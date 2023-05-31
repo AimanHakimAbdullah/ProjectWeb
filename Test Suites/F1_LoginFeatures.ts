@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>F1_LoginFeatures</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ca5b5514-475a-48bf-9097-77470e24d978</testSuiteGuid>
+   <testCaseLink>
+      <guid>e59b622c-f0f3-4605-aec3-c2b0dbeb5b4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>03806fa0-7f87-4af7-887e-23f58b4dde9a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fc1b088f-99e8-4d9f-9865-c497dc890ad5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2459736d-2468-4797-acb1-dcdedc463086</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC2_USER ENTER INVALID USERNAME (N)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b47dd3e6-2e9e-4eae-af99-319559963387</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>18417d18-785f-4d2e-b2d2-cf02db7b9f3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC3_USER ENTER INVALID PASSWORD (N)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

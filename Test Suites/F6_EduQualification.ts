@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>F6_EduQualification</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>34793aa3-455a-4c49-a99a-11e80678018c</testSuiteGuid>
+   <testCaseLink>
+      <guid>618d1971-3d1a-4e09-9007-a64bc293c25e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC1_Add Education Level Success (P)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5108c74c-f557-4702-a65e-04527e241df5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8075bcb0-e428-4f03-abca-37861bbad74b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC2_Same Skill Name (N)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>555e4d87-7e6f-48ea-bbda-d44f5e3b3907</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>838c736e-cc65-4cc1-b7ff-b2de5c6b8c79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC3_Not Enter Education Level (N)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d15fdec-2fa2-4319-9358-22fcff0e648a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a59449a-02b8-4888-9f2c-6f01975ea020</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC1_Rename Education Level Successful (P)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d99f044f-5c06-4a87-8026-64df3299af25</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>97cbacb3-4dac-40e1-82e4-901e49f36166</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC2_Rename With Same Name</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ab8a675e-5e47-47a9-93ec-792429fff687</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d8b8740b-8708-4270-a7f4-8905036fc1e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC3_Rename With Blank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea695ed3-315b-487e-9dd4-8afb738def57</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

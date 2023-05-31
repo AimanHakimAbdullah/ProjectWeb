@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LF1_TC2_USER ENTER INVALID USERNAME (N)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ddb9f79-e492-4264-a7c9-63ac34b88a93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b47dd3e6-2e9e-4eae-af99-319559963387</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>b47dd3e6-2e9e-4eae-af99-319559963387</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

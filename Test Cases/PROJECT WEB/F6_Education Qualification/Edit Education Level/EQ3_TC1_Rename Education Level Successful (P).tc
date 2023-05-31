@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EQ3_TC1_Rename Education Level Successful (P)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fc94c8e-ed2c-464e-94de-66df001789eb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d99f044f-5c06-4a87-8026-64df3299af25</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d99f044f-5c06-4a87-8026-64df3299af25</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

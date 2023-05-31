@@ -1,0 +1,150 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+F2_payGrade,Chrome 113.0.0.0,,,2023-05-30 13:37:52,2023-05-30 13:43:36,5m - 43.772s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC01_AddGradeSuccess (P),Chrome 113.0.0.0,,,2023-05-30 13:37:52,2023-05-30 13:38:21,28.382s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:37:53,2023-05-30 13:38:08,15.363s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:38:08,2023-05-30 13:38:09,1.236s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:38:09,2023-05-30 13:38:10,0.519s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:38:10,2023-05-30 13:38:11,1.399s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:38:11,2023-05-30 13:38:12,0.982s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/button_AddPayGrade""))",Chrome 113.0.0.0,,,2023-05-30 13:38:12,2023-05-30 13:38:14,1.888s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Name_Pay Grade""), ""DG 41"")",Chrome 113.0.0.0,,,2023-05-30 13:38:14,2023-05-30 13:38:17,3.188s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save""))",Chrome 113.0.0.0,,,2023-05-30 13:38:17,2023-05-30 13:38:18,0.375s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/p_Successfully Updated""))",Chrome 113.0.0.0,,,2023-05-30 13:38:18,2023-05-30 13:38:21,2.894s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC02_Add Exist Grade (N),Chrome 113.0.0.0,,,2023-05-30 13:38:21,2023-05-30 13:38:44,23.190s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:38:21,2023-05-30 13:38:35,13.822s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:38:35,2023-05-30 13:38:36,1.246s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:38:36,2023-05-30 13:38:37,0.509s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:38:37,2023-05-30 13:38:38,1.427s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:38:38,2023-05-30 13:38:39,0.922s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/button_AddPayGrade""))",Chrome 113.0.0.0,,,2023-05-30 13:38:39,2023-05-30 13:38:40,0.942s,PASSED
+"setText(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade""), ""DG 41"")",Chrome 113.0.0.0,,,2023-05-30 13:38:40,2023-05-30 13:38:43,3.029s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/button_Save""))",Chrome 113.0.0.0,,,2023-05-30 13:38:43,2023-05-30 13:38:43,0.540s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Pay Grade/span_Already exists""), 0)",Chrome 113.0.0.0,,,2023-05-30 13:38:43,2023-05-30 13:38:44,0.382s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC01_Add Currency Success (P),Chrome 113.0.0.0,,,2023-05-30 13:38:44,2023-05-30 13:39:31,46.753s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:38:44,2023-05-30 13:39:03,18.542s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:39:03,2023-05-30 13:39:04,1.391s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:39:04,2023-05-30 13:39:05,0.571s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:39:05,2023-05-30 13:39:06,1.058s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:39:06,2023-05-30 13:39:07,1.089s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_DG 41""))",Chrome 113.0.0.0,,,2023-05-30 13:39:07,2023-05-30 13:39:08,1.421s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7"")",Chrome 113.0.0.0,,,2023-05-30 13:39:08,2023-05-30 13:39:09,0.562s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/button_Add""))",Chrome 113.0.0.0,,,2023-05-30 13:39:09,2023-05-30 13:39:10,0.975s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/div_-- Select --""))",Chrome 113.0.0.0,,,2023-05-30 13:39:10,2023-05-30 13:39:20,10.340s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham""))",Chrome 113.0.0.0,,,2023-05-30 13:39:20,2023-05-30 13:39:22,1.689s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), ""3000"")",Chrome 113.0.0.0,,,2023-05-30 13:39:22,2023-05-30 13:39:25,3.163s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), ""30000"")",Chrome 113.0.0.0,,,2023-05-30 13:39:25,2023-05-30 13:39:28,2.977s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save_AddCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:39:28,2023-05-30 13:39:29,0.479s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-30 13:39:29,2023-05-30 13:39:31,2.045s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC02_Add Invalid Currency (N),Chrome 113.0.0.0,,,2023-05-30 13:39:31,2023-05-30 13:40:02,31.082s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:39:31,2023-05-30 13:39:47,16.253s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:39:47,2023-05-30 13:39:49,1.343s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:39:49,2023-05-30 13:39:49,0.539s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:39:49,2023-05-30 13:39:50,1.260s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:39:50,2023-05-30 13:39:52,1.031s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_DG 41""))",Chrome 113.0.0.0,,,2023-05-30 13:39:52,2023-05-30 13:39:52,0.970s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7"")",Chrome 113.0.0.0,,,2023-05-30 13:39:52,2023-05-30 13:39:53,0.522s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/button_Add""))",Chrome 113.0.0.0,,,2023-05-30 13:39:53,2023-05-30 13:39:54,0.970s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/div_-- Select --""))",Chrome 113.0.0.0,,,2023-05-30 13:39:54,2023-05-30 13:39:55,0.896s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), ""3000"")",Chrome 113.0.0.0,,,2023-05-30 13:39:55,2023-05-30 13:39:58,2.942s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), ""30000"")",Chrome 113.0.0.0,,,2023-05-30 13:39:58,2023-05-30 13:40:01,2.931s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save_AddCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:40:01,2023-05-30 13:40:01,0.482s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Pay Grade/span_Required""), 0)",Chrome 113.0.0.0,,,2023-05-30 13:40:01,2023-05-30 13:40:02,0.491s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC03_Add Registered Currency (N),Chrome 113.0.0.0,,,2023-05-30 13:40:02,2023-05-30 13:40:39,37.624s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:40:02,2023-05-30 13:40:21,19.269s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:40:21,2023-05-30 13:40:23,1.336s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:40:23,2023-05-30 13:40:23,0.562s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:40:23,2023-05-30 13:40:24,1.102s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:40:24,2023-05-30 13:40:25,1.103s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_DG 41""))",Chrome 113.0.0.0,,,2023-05-30 13:40:25,2023-05-30 13:40:27,1.482s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7"")",Chrome 113.0.0.0,,,2023-05-30 13:40:27,2023-05-30 13:40:27,0.514s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/button_Add""))",Chrome 113.0.0.0,,,2023-05-30 13:40:27,2023-05-30 13:40:30,2.194s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/div_-- Select --""))",Chrome 113.0.0.0,,,2023-05-30 13:40:30,2023-05-30 13:40:33,3.016s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), ""3000"")",Chrome 113.0.0.0,,,2023-05-30 13:40:33,2023-05-30 13:40:36,2.814s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), ""30000"")",Chrome 113.0.0.0,,,2023-05-30 13:40:36,2023-05-30 13:40:38,2.890s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save_AddCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:40:38,2023-05-30 13:40:39,0.485s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Pay Grade/span_Required""), 0)",Chrome 113.0.0.0,,,2023-05-30 13:40:39,2023-05-30 13:40:39,0.459s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC04_Min Salary Higher (N),Chrome 113.0.0.0,,,2023-05-30 13:40:39,2023-05-30 13:41:16,36.886s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:40:40,2023-05-30 13:40:57,17.443s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:40:57,2023-05-30 13:40:59,1.368s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:40:59,2023-05-30 13:40:59,0.548s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:40:59,2023-05-30 13:41:00,1.029s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:41:00,2023-05-30 13:41:01,0.982s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_DG 41""))",Chrome 113.0.0.0,,,2023-05-30 13:41:01,2023-05-30 13:41:03,1.562s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7"")",Chrome 113.0.0.0,,,2023-05-30 13:41:03,2023-05-30 13:41:05,2.396s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/button_Add""))",Chrome 113.0.0.0,,,2023-05-30 13:41:05,2023-05-30 13:41:06,0.928s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/div_-- Select --""))",Chrome 113.0.0.0,,,2023-05-30 13:41:06,2023-05-30 13:41:09,3.439s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), ""3000"")",Chrome 113.0.0.0,,,2023-05-30 13:41:09,2023-05-30 13:41:12,2.947s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), ""30"")",Chrome 113.0.0.0,,,2023-05-30 13:41:12,2023-05-30 13:41:15,2.910s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save_AddCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:41:15,2023-05-30 13:41:16,0.485s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Pay Grade/span_Should be higher than Minimum Salary""), 0)",Chrome 113.0.0.0,,,2023-05-30 13:41:16,2023-05-30 13:41:16,0.487s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC01_Edit MIn Salary (P),Chrome 113.0.0.0,,,2023-05-30 13:41:16,2023-05-30 13:41:58,41.270s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:41:17,2023-05-30 13:41:33,16.291s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:41:33,2023-05-30 13:41:34,1.268s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:41:34,2023-05-30 13:41:35,0.602s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:41:35,2023-05-30 13:41:37,1.709s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:41:37,2023-05-30 13:41:38,1.306s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Grade 1""))",Chrome 113.0.0.0,,,2023-05-30 13:41:38,2023-05-30 13:41:40,2.551s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1"")",Chrome 113.0.0.0,,,2023-05-30 13:41:40,2023-05-30 13:41:41,0.481s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency""))",Chrome 113.0.0.0,,,2023-05-30 13:41:41,2023-05-30 13:41:48,7.339s,PASSED
+"doubleClick(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""))",Chrome 113.0.0.0,,,2023-05-30 13:41:48,2023-05-30 13:41:50,2.142s,PASSED
+"sendKeys(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), Keys.chord(CONTROL, ""a""))",Chrome 113.0.0.0,,,2023-05-30 13:41:50,2023-05-30 13:41:52,1.440s,PASSED
+"sendKeys(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), Keys.chord(DELETE))",Chrome 113.0.0.0,,,2023-05-30 13:41:52,2023-05-30 13:41:53,1.414s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), ""3000"")",Chrome 113.0.0.0,,,2023-05-30 13:41:53,2023-05-30 13:41:56,2.783s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save_AddCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:41:56,2023-05-30 13:41:56,0.366s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-30 13:41:56,2023-05-30 13:41:58,1.155s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC02_Edit Max Salary (P),Chrome 113.0.0.0,,,2023-05-30 13:41:58,2023-05-30 13:42:28,30.120s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:41:58,2023-05-30 13:42:11,13.398s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:42:11,2023-05-30 13:42:13,1.260s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:42:13,2023-05-30 13:42:13,0.527s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:42:13,2023-05-30 13:42:14,1.372s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:42:14,2023-05-30 13:42:15,1.006s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Grade 1""))",Chrome 113.0.0.0,,,2023-05-30 13:42:15,2023-05-30 13:42:17,1.356s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1"")",Chrome 113.0.0.0,,,2023-05-30 13:42:17,2023-05-30 13:42:17,0.487s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency""))",Chrome 113.0.0.0,,,2023-05-30 13:42:17,2023-05-30 13:42:19,1.725s,PASSED
+"doubleClick(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""))",Chrome 113.0.0.0,,,2023-05-30 13:42:19,2023-05-30 13:42:21,1.581s,PASSED
+"sendKeys(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), Keys.chord(CONTROL, ""a""))",Chrome 113.0.0.0,,,2023-05-30 13:42:21,2023-05-30 13:42:22,1.421s,PASSED
+"sendKeys(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), Keys.chord(DELETE))",Chrome 113.0.0.0,,,2023-05-30 13:42:22,2023-05-30 13:42:23,1.426s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), ""70000"")",Chrome 113.0.0.0,,,2023-05-30 13:42:23,2023-05-30 13:42:26,2.800s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save_AddCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:42:26,2023-05-30 13:42:27,0.473s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-30 13:42:27,2023-05-30 13:42:28,0.914s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC03_Replace Currency Success (P),Chrome 113.0.0.0,,,2023-05-30 13:42:28,2023-05-30 13:43:04,36.143s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:42:28,2023-05-30 13:42:42,13.631s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:42:42,2023-05-30 13:42:43,1.291s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:42:43,2023-05-30 13:42:43,0.535s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:42:43,2023-05-30 13:42:44,0.982s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:42:44,2023-05-30 13:42:45,0.923s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Grade 1""))",Chrome 113.0.0.0,,,2023-05-30 13:42:45,2023-05-30 13:42:47,1.395s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1"")",Chrome 113.0.0.0,,,2023-05-30 13:42:47,2023-05-30 13:42:47,0.460s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_USD_delete Currency""))",Chrome 113.0.0.0,,,2023-05-30 13:42:47,2023-05-30 13:42:49,1.824s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Yes, DeleteCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:42:49,2023-05-30 13:42:51,1.574s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Pay Grade/p_Successfully Deleted""), 0)",Chrome 113.0.0.0,,,2023-05-30 13:42:51,2023-05-30 13:42:52,0.991s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Pay Grade/button_Add""))",Chrome 113.0.0.0,,,2023-05-30 13:42:52,2023-05-30 13:42:52,0.371s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/div_-- Select --""))",Chrome 113.0.0.0,,,2023-05-30 13:42:52,2023-05-30 13:42:55,3.109s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham""))",Chrome 113.0.0.0,,,2023-05-30 13:42:55,2023-05-30 13:42:57,1.556s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), ""3000"")",Chrome 113.0.0.0,,,2023-05-30 13:42:57,2023-05-30 13:42:59,2.845s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), ""30000"")",Chrome 113.0.0.0,,,2023-05-30 13:42:59,2023-05-30 13:43:02,2.792s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save_AddCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:43:02,2023-05-30 13:43:03,0.485s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-30 13:43:03,2023-05-30 13:43:04,1.023s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC04_Min Salary Higher (N),Chrome 113.0.0.0,,,2023-05-30 13:43:04,2023-05-30 13:43:36,31.891s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-30 13:43:04,2023-05-30 13:43:18,14.259s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Admin""))",Chrome 113.0.0.0,,,2023-05-30 13:43:18,2023-05-30 13:43:20,1.297s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-30 13:43:20,2023-05-30 13:43:20,0.505s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/span_Job""))",Chrome 113.0.0.0,,,2023-05-30 13:43:20,2023-05-30 13:43:22,1.384s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/a_Pay Grades""))",Chrome 113.0.0.0,,,2023-05-30 13:43:22,2023-05-30 13:43:23,1.012s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Grade 2""))",Chrome 113.0.0.0,,,2023-05-30 13:43:23,2023-05-30 13:43:24,1.714s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/2"")",Chrome 113.0.0.0,,,2023-05-30 13:43:24,2023-05-30 13:43:25,0.521s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency""))",Chrome 113.0.0.0,,,2023-05-30 13:43:25,2023-05-30 13:43:29,4.442s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Minimum Salary""), ""3000"")",Chrome 113.0.0.0,,,2023-05-30 13:43:29,2023-05-30 13:43:32,2.794s,PASSED
+"setText(findTestObject(""PROJECT WEB/Pay Grade/input_Maximum Salary""), ""30"")",Chrome 113.0.0.0,,,2023-05-30 13:43:32,2023-05-30 13:43:35,2.777s,PASSED
+"click(findTestObject(""PROJECT WEB/Pay Grade/button_Save_AddCurrency""))",Chrome 113.0.0.0,,,2023-05-30 13:43:35,2023-05-30 13:43:35,0.477s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Pay Grade/span_Should be higher than Minimum Salary""), 0)",Chrome 113.0.0.0,,,2023-05-30 13:43:35,2023-05-30 13:43:36,0.338s,PASSED

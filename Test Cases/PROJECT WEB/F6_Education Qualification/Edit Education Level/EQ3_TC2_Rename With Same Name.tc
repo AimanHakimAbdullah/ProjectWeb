@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EQ3_TC2_Rename With Same Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24fec491-5f3e-4069-91fc-ef0e986b7f8e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab8a675e-5e47-47a9-93ec-792429fff687</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ab8a675e-5e47-47a9-93ec-792429fff687</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

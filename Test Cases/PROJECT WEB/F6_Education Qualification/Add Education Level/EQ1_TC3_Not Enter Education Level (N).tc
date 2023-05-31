@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EQ1_TC3_Not Enter Education Level (N)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e83d1c5-8ed4-42c5-9d31-e11ff74385d1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d15fdec-2fa2-4319-9358-22fcff0e648a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SPM-Sijil Pelajaran Malaysia'</defaultValue>
+      <description></description>
+      <id>3d15fdec-2fa2-4319-9358-22fcff0e648a</id>
+      <masked>false</masked>
+      <name>eduLevel</name>
+   </variable>
+</TestCaseEntity>

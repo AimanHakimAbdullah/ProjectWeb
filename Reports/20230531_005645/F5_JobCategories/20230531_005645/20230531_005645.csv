@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+F5_JobCategories,Chrome 113.0.0.0,,,2023-05-31 00:56:57,2023-05-31 00:57:46,48.403s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC1_Add New Job Categories (P),Chrome 113.0.0.0,,,2023-05-31 00:56:57,2023-05-31 00:57:23,25.606s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 00:56:58,2023-05-31 00:57:13,15.384s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/span_Admin""))",Chrome 113.0.0.0,,,2023-05-31 00:57:13,2023-05-31 00:57:15,1.382s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 00:57:15,2023-05-31 00:57:15,0.498s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/span_Job""))",Chrome 113.0.0.0,,,2023-05-31 00:57:15,2023-05-31 00:57:17,1.420s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/a_Job Categories""))",Chrome 113.0.0.0,,,2023-05-31 00:57:17,2023-05-31 00:57:18,1.029s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category""))",Chrome 113.0.0.0,,,2023-05-31 00:57:18,2023-05-31 00:57:20,1.945s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/input_Job Category""))",Chrome 113.0.0.0,,,2023-05-31 00:57:20,2023-05-31 00:57:21,1.246s,PASSED
+"setText(findTestObject(""Object Repository/PROJECT WEB/Job Categories/input_Job Category""), ""Professional IT"")",Chrome 113.0.0.0,,,2023-05-31 00:57:21,2023-05-31 00:57:22,0.790s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 00:57:22,2023-05-31 00:57:22,0.389s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-31 00:57:22,2023-05-31 00:57:23,1.036s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC2_Add Existing Job Categories (N),Chrome 113.0.0.0,,,2023-05-31 00:57:23,2023-05-31 00:57:46,22.464s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 00:57:23,2023-05-31 00:57:37,13.515s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/span_Admin""))",Chrome 113.0.0.0,,,2023-05-31 00:57:37,2023-05-31 00:57:38,1.342s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 00:57:38,2023-05-31 00:57:39,0.570s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/span_Job""))",Chrome 113.0.0.0,,,2023-05-31 00:57:39,2023-05-31 00:57:40,0.971s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/a_Job Categories""))",Chrome 113.0.0.0,,,2023-05-31 00:57:40,2023-05-31 00:57:41,1.045s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category""))",Chrome 113.0.0.0,,,2023-05-31 00:57:41,2023-05-31 00:57:43,1.895s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/input_Job Category""))",Chrome 113.0.0.0,,,2023-05-31 00:57:43,2023-05-31 00:57:44,1.106s,PASSED
+"setText(findTestObject(""Object Repository/PROJECT WEB/Job Categories/input_Job Category""), ""Professional IT"")",Chrome 113.0.0.0,,,2023-05-31 00:57:44,2023-05-31 00:57:45,0.740s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 00:57:45,2023-05-31 00:57:45,0.541s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Job Categories/span_Already exists_JC""), 0)",Chrome 113.0.0.0,,,2023-05-31 00:57:45,2023-05-31 00:57:46,0.354s,PASSED

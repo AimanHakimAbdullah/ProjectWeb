@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EQ1_TC2_Same Skill Name (N)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6429fb16-6b10-4877-84f2-d0cde075d94b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>555e4d87-7e6f-48ea-bbda-d44f5e3b3907</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SPM-Sijil Pelajaran Malaysia'</defaultValue>
+      <description></description>
+      <id>555e4d87-7e6f-48ea-bbda-d44f5e3b3907</id>
+      <masked>false</masked>
+      <name>eduLevel</name>
+   </variable>
+</TestCaseEntity>

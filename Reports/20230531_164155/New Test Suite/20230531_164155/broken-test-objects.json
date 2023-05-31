@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230531_164155/New Test Suite/20230531_164155/Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230531_164155/New Test Suite/20230531_164155/Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary_idRelative.png"
+    }
+  ]
+}

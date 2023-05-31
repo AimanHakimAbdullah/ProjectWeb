@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+F7_Language_BDD,Chrome 113.0.0.0,,,2023-05-30 15:04:01,2023-05-30 15:05:39,1m - 38.520s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F7_Languages-BDD/AddNewLanguage,Chrome 113.0.0.0,,,2023-05-30 15:04:01,2023-05-30 15:05:39,1m - 38.208s,PASSED
+"runFeatureFile(""Include/features/Add New Language_BDD.feature"")",Chrome 113.0.0.0,,,2023-05-30 15:04:02,2023-05-30 15:05:39,1m - 37.711s,PASSED

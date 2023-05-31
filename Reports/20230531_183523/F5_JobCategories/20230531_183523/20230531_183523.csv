@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+F5_JobCategories,Chrome 113.0.0.0,,,2023-05-31 18:35:46,2023-05-31 18:36:57,1m - 11.290s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC1_Add New Job Categories (P),Chrome 113.0.0.0,,,2023-05-31 18:35:46,2023-05-31 18:36:29,42.542s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 18:35:47,2023-05-31 18:36:10,23.005s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/span_Admin""))",Chrome 113.0.0.0,,,2023-05-31 18:36:10,2023-05-31 18:36:11,1.316s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 18:36:11,2023-05-31 18:36:12,0.561s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/span_Job""))",Chrome 113.0.0.0,,,2023-05-31 18:36:12,2023-05-31 18:36:14,1.720s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/a_Job Categories""))",Chrome 113.0.0.0,,,2023-05-31 18:36:14,2023-05-31 18:36:19,5.654s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category""))",Chrome 113.0.0.0,,,2023-05-31 18:36:19,2023-05-31 18:36:23,3.807s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/input_Job Category""))",Chrome 113.0.0.0,,,2023-05-31 18:36:23,2023-05-31 18:36:26,2.823s,PASSED
+"setText(findTestObject(""Object Repository/PROJECT WEB/Job Categories/input_Job Category""), ""Professional IT"")",Chrome 113.0.0.0,,,2023-05-31 18:36:26,2023-05-31 18:36:27,0.660s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 18:36:27,2023-05-31 18:36:27,0.371s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-31 18:36:27,2023-05-31 18:36:29,2.016s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC2_Add Existing Job Categories (N),Chrome 113.0.0.0,,,2023-05-31 18:36:29,2023-05-31 18:36:57,28.277s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 18:36:29,2023-05-31 18:36:46,16.749s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/span_Admin""))",Chrome 113.0.0.0,,,2023-05-31 18:36:46,2023-05-31 18:36:47,1.305s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 18:36:47,2023-05-31 18:36:48,0.696s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/span_Job""))",Chrome 113.0.0.0,,,2023-05-31 18:36:48,2023-05-31 18:36:50,1.822s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/a_Job Categories""))",Chrome 113.0.0.0,,,2023-05-31 18:36:50,2023-05-31 18:36:51,1.052s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category""))",Chrome 113.0.0.0,,,2023-05-31 18:36:51,2023-05-31 18:36:53,2.376s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/input_Job Category""))",Chrome 113.0.0.0,,,2023-05-31 18:36:53,2023-05-31 18:36:56,2.275s,PASSED
+"setText(findTestObject(""Object Repository/PROJECT WEB/Job Categories/input_Job Category""), ""Professional IT"")",Chrome 113.0.0.0,,,2023-05-31 18:36:56,2023-05-31 18:36:56,0.724s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Categories/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 18:36:56,2023-05-31 18:36:57,0.535s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Job Categories/span_Already exists_JC""), 0)",Chrome 113.0.0.0,,,2023-05-31 18:36:57,2023-05-31 18:36:57,0.364s,PASSED

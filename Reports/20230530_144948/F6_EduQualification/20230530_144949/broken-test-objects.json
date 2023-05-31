@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230530_144948/F6_EduQualification/20230530_144949/Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank_position.png"
+    }
+  ]
+}

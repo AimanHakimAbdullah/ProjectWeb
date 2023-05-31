@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PG03_TC01_Delete more Currency Success (P)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a7b0bec-3f61-4a0b-b5eb-081a081857e9</testCaseGuid>
+</TestCaseEntity>

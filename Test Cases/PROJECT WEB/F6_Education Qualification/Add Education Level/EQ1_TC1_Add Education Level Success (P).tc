@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EQ1_TC1_Add Education Level Success (P)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fe98326-f7c7-40f6-9121-2e2a6ed85181</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5108c74c-f557-4702-a65e-04527e241df5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SPM-Sijil Pelajaran Malaysia'</defaultValue>
+      <description></description>
+      <id>5108c74c-f557-4702-a65e-04527e241df5</id>
+      <masked>false</masked>
+      <name>eduLevel</name>
+   </variable>
+</TestCaseEntity>

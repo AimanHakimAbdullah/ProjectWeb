@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="F5_JobCategories" time="50.238" tests="2" failures="0" errors="0">
+   <testsuite name="F5_JobCategories" tests="2" failures="0" errors="0" time="50.238" skipped="0" timestamp="2023-05-30 14:37:01" hostname="Aiman Hakim - DESKTOP-1FDN2RP" id="Test Suites/F5_JobCategories">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230530_143651\\F5_JobCategories\\20230530_143651"/>
+         <property name="logFiles" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230530_143651\\F5_JobCategories\\20230530_143651\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aiman Hakim - DESKTOP-1FDN2RP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="a46105ebe7eb97207a4fef3282b33eda"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC1_Add New Job Categories (P)" time="25.422" classname="Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC1_Add New Job Categories (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-30 14:37:01 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC1_Add New Job Categories (P): Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC1_Add New Job Categories (P)
+
+2023-05-30 14:37:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:37:02 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 14:37:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 14:37:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 14:37:03 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 14:37:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 14:37:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 14:37:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 14:37:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 14:37:05 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:37:11 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:37:12 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:37:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:37:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:37:13 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:37:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:37:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:37:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/span_Admin")): Object: 'Object Repository/PROJECT WEB/Job Categories/span_Admin' is clicked on
+
+2023-05-30 14:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/span_Admin' is clicked on
+
+2023-05-30 14:37:18 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:37:19 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/span_Job")): Object: 'Object Repository/PROJECT WEB/Job Categories/span_Job' is clicked on
+
+2023-05-30 14:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/span_Job' is clicked on
+
+2023-05-30 14:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/a_Job Categories")): Object: 'Object Repository/PROJECT WEB/Job Categories/a_Job Categories' is clicked on
+
+2023-05-30 14:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/a_Job Categories' is clicked on
+
+2023-05-30 14:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category")): Object: 'Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category' is clicked on
+
+2023-05-30 14:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category' is clicked on
+
+2023-05-30 14:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/input_Job Category")): Object: 'Object Repository/PROJECT WEB/Job Categories/input_Job Category' is clicked on
+
+2023-05-30 14:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/input_Job Category' is clicked on
+
+2023-05-30 14:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Job Categories/input_Job Category"), "Professional IT"): Text 'Professional IT' is set on object 'Object Repository/PROJECT WEB/Job Categories/input_Job Category'
+
+2023-05-30 14:37:25 - [MESSAGE][PASSED] - Text 'Professional IT' is set on object 'Object Repository/PROJECT WEB/Job Categories/input_Job Category'
+
+2023-05-30 14:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/button_Save")): Object: 'Object Repository/PROJECT WEB/Job Categories/button_Save' is clicked on
+
+2023-05-30 14:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/button_Save' is clicked on
+
+2023-05-30 14:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/p_Successfully Saved")): Object: 'Object Repository/PROJECT WEB/Job Categories/p_Successfully Saved' is clicked on
+
+2023-05-30 14:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/p_Successfully Saved' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC2_Add Existing Job Categories (N)" time="24.499" classname="Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC2_Add Existing Job Categories (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-30 14:37:27 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC2_Add Existing Job Categories (N): Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC2_Add Existing Job Categories (N)
+
+2023-05-30 14:37:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:37:27 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 14:37:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 14:37:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-30 14:37:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 14:37:28 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 14:37:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 14:37:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 14:37:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 14:37:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 14:37:29 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:37:35 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:37:35 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:37:37 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:37:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:37:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:37:37 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:37:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:37:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:37:41 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:37:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/span_Admin")): Object: 'Object Repository/PROJECT WEB/Job Categories/span_Admin' is clicked on
+
+2023-05-30 14:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/span_Admin' is clicked on
+
+2023-05-30 14:37:43 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:37:43 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/span_Job")): Object: 'Object Repository/PROJECT WEB/Job Categories/span_Job' is clicked on
+
+2023-05-30 14:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/span_Job' is clicked on
+
+2023-05-30 14:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/a_Job Categories")): Object: 'Object Repository/PROJECT WEB/Job Categories/a_Job Categories' is clicked on
+
+2023-05-30 14:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/a_Job Categories' is clicked on
+
+2023-05-30 14:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category")): Object: 'Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category' is clicked on
+
+2023-05-30 14:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/button_Add_Job Category' is clicked on
+
+2023-05-30 14:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/input_Job Category")): Object: 'Object Repository/PROJECT WEB/Job Categories/input_Job Category' is clicked on
+
+2023-05-30 14:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/input_Job Category' is clicked on
+
+2023-05-30 14:37:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Job Categories/input_Job Category"), "Professional IT"): Text 'Professional IT' is set on object 'Object Repository/PROJECT WEB/Job Categories/input_Job Category'
+
+2023-05-30 14:37:50 - [MESSAGE][PASSED] - Text 'Professional IT' is set on object 'Object Repository/PROJECT WEB/Job Categories/input_Job Category'
+
+2023-05-30 14:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Job Categories/button_Save")): Object: 'Object Repository/PROJECT WEB/Job Categories/button_Save' is clicked on
+
+2023-05-30 14:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Job Categories/button_Save' is clicked on
+
+2023-05-30 14:37:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Job Categories/span_Already exists_JC"), 0): Object 'Object Repository/PROJECT WEB/Job Categories/span_Already exists_JC' is present
+
+2023-05-30 14:37:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Job Categories/span_Already exists_JC' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-30 14:37:01 - [TEST_SUITE][PASSED] - F5_JobCategories: Test Cases/PROJECT WEB/F5_Job Categories/Add Job Category/JC1_TC2_Add Existing Job Categories (N)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

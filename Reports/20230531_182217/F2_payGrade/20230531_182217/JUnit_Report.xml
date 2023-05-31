@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="F2_payGrade" time="364.493" tests="10" failures="0" errors="0">
+   <testsuite name="F2_payGrade" tests="10" failures="0" errors="0" time="364.493" skipped="0" timestamp="2023-05-31 18:22:29" hostname="Aiman Hakim - DESKTOP-1FDN2RP" id="Test Suites/F2_payGrade">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230531_182217\\F2_payGrade\\20230531_182217"/>
+         <property name="logFiles" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230531_182217\\F2_payGrade\\20230531_182217\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aiman Hakim - DESKTOP-1FDN2RP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="172.16.200.48"/>
+         <property name="sessionId" value="93034c9cd2c2973b94a71819f37dfa5a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC01_AddGradeSuccess (P)" time="43.212" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC01_AddGradeSuccess (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:22:29 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC01_AddGradeSuccess (P): Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC01_AddGradeSuccess (P)
+
+2023-05-31 18:22:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:22:30 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:22:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:22:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:22:31 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:22:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:22:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:22:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:22:33 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:22:33 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:22:39 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:22:39 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:22:41 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:22:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:22:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:22:41 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:22:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:22:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:22:45 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:22:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:22:47 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:22:48 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/button_AddPayGrade")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_AddPayGrade' is clicked on
+
+2023-05-31 18:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_AddPayGrade' is clicked on
+
+2023-05-31 18:23:03 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Name_Pay Grade"), "DG 41"): Text 'DG 41' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade'
+
+2023-05-31 18:23:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input)[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:23:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade'. Try using Self-healing.
+
+2023-05-31 18:23:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input'.
+
+2023-05-31 18:23:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input)[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:23:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade'. Try using Self-healing.
+
+2023-05-31 18:23:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input'.
+
+2023-05-31 18:23:08 - [MESSAGE][PASSED] - Text 'DG 41' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade'
+
+2023-05-31 18:23:08 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save' is clicked on
+
+2023-05-31 18:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save' is clicked on
+
+2023-05-31 18:23:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/p_Successfully Updated")): Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Updated' is clicked on
+
+2023-05-31 18:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Updated' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC02_Add Exist Grade (N)" time="29.423" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC02_Add Exist Grade (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:23:13 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC02_Add Exist Grade (N): Test Cases/PROJECT WEB/F2_Pay Grades/Add New Pay Grade/PG01_TC02_Add Exist Grade (N)
+
+2023-05-31 18:23:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:23:13 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:23:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:23:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:23:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:23:14 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:23:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:23:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:23:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:23:15 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:23:15 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:23:22 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:23:22 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:23:24 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:23:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:23:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:23:25 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:23:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:23:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:23:30 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:23:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:23:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:23:32 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:23:33 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:23:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/button_AddPayGrade")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_AddPayGrade' is clicked on
+
+2023-05-31 18:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_AddPayGrade' is clicked on
+
+2023-05-31 18:23:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade"), "DG 41"): Text 'DG 41' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade'
+
+2023-05-31 18:23:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input)[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:23:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade'. Try using Self-healing.
+
+2023-05-31 18:23:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input'.
+
+2023-05-31 18:23:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input)[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:23:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade'. Try using Self-healing.
+
+2023-05-31 18:23:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input'.
+
+2023-05-31 18:23:41 - [MESSAGE][PASSED] - Text 'DG 41' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade'
+
+2023-05-31 18:23:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/button_Save")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save' is clicked on
+
+2023-05-31 18:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save' is clicked on
+
+2023-05-31 18:23:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Pay Grade/span_Already exists"), 0): Object 'Object Repository/PROJECT WEB/Pay Grade/span_Already exists' is present
+
+2023-05-31 18:23:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Pay Grade/span_Already exists' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC01_Add Currency Success (P)" time="37.643" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC01_Add Currency Success (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:23:42 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC01_Add Currency Success (P): Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC01_Add Currency Success (P)
+
+2023-05-31 18:23:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:23:42 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:23:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:23:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:23:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:23:43 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:23:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:23:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:23:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:23:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:23:45 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:23:52 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:23:52 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:23:54 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:23:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:23:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:23:55 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:23:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:23:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:23:59 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:23:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:23:59 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:24:01 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:24:02 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:24:02 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:24:04 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:24:05 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_DG 41")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_DG 41' is clicked on
+
+2023-05-31 18:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_DG 41' is clicked on
+
+2023-05-31 18:24:07 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7' successfully
+
+2023-05-31 18:24:07 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7' successfully
+
+2023-05-31 18:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/button_Add")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:24:10 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/div_-- Select --")): Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:24:11 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham' is clicked on
+
+2023-05-31 18:24:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[2]/span)[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham'. Try using Self-healing.
+
+2023-05-31 18:24:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[2]/span'.
+
+2023-05-31 18:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham' is clicked on
+
+2023-05-31 18:24:12 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), "3000"): Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:24:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:24:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:24:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:24:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:24:15 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:24:15 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), "30000"): Text '30000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:24:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:24:17 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:24:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:24:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:24:18 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:24:18 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save_AddCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:24:19 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/p_Successfully Saved")): Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Saved' is clicked on
+
+2023-05-31 18:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Saved' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC02_Add Invalid Currency (N)" time="31.628" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC02_Add Invalid Currency (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:24:20 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC02_Add Invalid Currency (N): Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC02_Add Invalid Currency (N)
+
+2023-05-31 18:24:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:24:20 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:24:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:24:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:24:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:24:21 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:24:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:24:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:24:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:24:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:24:22 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:24:28 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:24:28 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:24:30 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:24:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:24:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:24:31 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:24:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:24:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:24:34 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:24:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:24:34 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:24:36 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:24:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:24:36 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:24:37 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:24:39 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_DG 41")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_DG 41' is clicked on
+
+2023-05-31 18:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_DG 41' is clicked on
+
+2023-05-31 18:24:40 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7' successfully
+
+2023-05-31 18:24:41 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7' successfully
+
+2023-05-31 18:24:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/button_Add")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:24:43 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/div_-- Select --")): Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), "3000"): Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:24:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:24:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:24:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:24:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:24:47 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), "30000"): Text '30000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:24:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:24:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:24:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:24:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:24:50 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:24:50 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:24:50 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save_AddCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:24:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Pay Grade/span_Required"), 0): Object 'Object Repository/PROJECT WEB/Pay Grade/span_Required' is present
+
+2023-05-31 18:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Pay Grade/span_Required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC03_Add Registered Currency (N)" time="37.932" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC03_Add Registered Currency (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:24:51 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC03_Add Registered Currency (N): Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC03_Add Registered Currency (N)
+
+2023-05-31 18:24:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:24:52 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:24:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:24:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:24:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:24:52 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:24:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:24:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:24:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:24:54 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:24:54 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:24:59 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:24:59 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:25:01 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:25:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:25:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:25:02 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:25:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:25:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:25:08 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:25:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:25:08 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:25:10 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:25:10 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:25:10 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:25:11 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:25:13 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_DG 41")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_DG 41' is clicked on
+
+2023-05-31 18:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_DG 41' is clicked on
+
+2023-05-31 18:25:14 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7' successfully
+
+2023-05-31 18:25:15 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7' successfully
+
+2023-05-31 18:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/button_Add")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:25:20 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/div_-- Select --")): Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:25:22 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), "3000"): Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:25:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:25:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:25:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:25:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:25:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:25:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:25:25 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:25:25 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), "30000"): Text '30000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:25:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:25:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:25:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:25:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:25:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:25:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:25:28 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:25:28 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save_AddCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:25:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Pay Grade/span_Required"), 0): Object 'Object Repository/PROJECT WEB/Pay Grade/span_Required' is present
+
+2023-05-31 18:25:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Pay Grade/span_Required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC04_Min Salary Higher (N)" time="32.565" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC04_Min Salary Higher (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:25:29 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC04_Min Salary Higher (N): Test Cases/PROJECT WEB/F2_Pay Grades/Add Currency/PG02_TC04_Min Salary Higher (N)
+
+2023-05-31 18:25:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:25:30 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:25:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:25:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:25:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:25:30 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:25:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:25:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:25:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:25:32 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:25:32 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:25:37 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:25:37 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:25:39 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:25:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:25:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:25:39 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:25:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:25:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:25:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:25:44 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:25:45 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:25:45 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:25:45 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:25:47 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:25:48 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_DG 41")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_DG 41' is clicked on
+
+2023-05-31 18:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_DG 41' is clicked on
+
+2023-05-31 18:25:50 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7' successfully
+
+2023-05-31 18:25:50 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/7' successfully
+
+2023-05-31 18:25:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/button_Add")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:25:54 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/div_-- Select --")): Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:25:55 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), "3000"): Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:25:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:25:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:25:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:25:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:25:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:25:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:25:58 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), "30"): Text '30' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:25:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:25:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:25:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:26:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:26:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:26:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:26:01 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:26:01 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save_AddCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:26:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Pay Grade/span_Should be higher than Minimum Salary"), 0): Object 'Object Repository/PROJECT WEB/Pay Grade/span_Should be higher than Minimum Salary' is present
+
+2023-05-31 18:26:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Pay Grade/span_Should be higher than Minimum Salary' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC01_Edit MIn Salary (P)" time="34.293" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC01_Edit MIn Salary (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:26:02 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC01_Edit MIn Salary (P): Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC01_Edit MIn Salary (P)
+
+2023-05-31 18:26:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:26:02 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:26:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:26:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:26:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:26:03 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:26:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:26:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:26:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:26:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:26:04 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:26:10 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:26:10 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:26:12 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:26:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:26:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:26:12 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:26:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:26:16 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:26:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:26:16 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:26:17 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:26:18 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:26:18 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:26:20 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:26:21 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Grade 1")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Grade 1' is clicked on
+
+2023-05-31 18:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Grade 1' is clicked on
+
+2023-05-31 18:26:22 - [TEST_STEP][PASSED] - navigateToUrl(URL_PAYGRADE): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1' successfully
+
+2023-05-31 18:26:23 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1' successfully
+
+2023-05-31 18:26:23 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency' is clicked on
+
+2023-05-31 18:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency' is clicked on
+
+2023-05-31 18:26:27 - [TEST_STEP][PASSED] - doubleClick(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary")): Object: 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' is double clicked on
+
+2023-05-31 18:26:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:26:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:26:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' is double clicked on
+
+2023-05-31 18:26:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:26:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:26:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:26:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:26:30 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:26:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:26:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:26:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:26:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:26:32 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:26:32 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), "3000"): Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:26:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:26:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:26:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:26:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:26:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:26:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:26:34 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:26:34 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save_AddCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:26:35 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/p_Successfully Saved")): Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Saved' is clicked on
+
+2023-05-31 18:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Saved' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC02_Edit Max Salary (P)" time="44.231" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC02_Edit Max Salary (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:26:36 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC02_Edit Max Salary (P): Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC02_Edit Max Salary (P)
+
+2023-05-31 18:26:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:26:37 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:26:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:26:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:26:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:26:37 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:26:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:26:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:26:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:26:39 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:26:39 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:26:45 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:26:45 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:26:46 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:26:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:26:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:26:47 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:26:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:26:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:26:51 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:26:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:26:51 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:26:52 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:26:53 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:26:53 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:26:55 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:26:56 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Grade 1")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Grade 1' is clicked on
+
+2023-05-31 18:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Grade 1' is clicked on
+
+2023-05-31 18:26:57 - [TEST_STEP][PASSED] - navigateToUrl(URL_PAYGRADE): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1' successfully
+
+2023-05-31 18:27:08 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1' successfully
+
+2023-05-31 18:27:08 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency' is clicked on
+
+2023-05-31 18:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency' is clicked on
+
+2023-05-31 18:27:11 - [TEST_STEP][PASSED] - doubleClick(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary")): Object: 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' is double clicked on
+
+2023-05-31 18:27:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:27:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' is double clicked on
+
+2023-05-31 18:27:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:27:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:27:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:27:14 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:27:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:27:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:27:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:27:15 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), "70000"): Text '70000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:27:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:27:17 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:27:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:27:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:27:18 - [MESSAGE][PASSED] - Text '70000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:27:18 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save_AddCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:27:19 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/p_Successfully Saved")): Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Saved' is clicked on
+
+2023-05-31 18:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Saved' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC03_Replace Currency Success (P)" time="42.553" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC03_Replace Currency Success (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:27:20 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC03_Replace Currency Success (P): Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC03_Replace Currency Success (P)
+
+2023-05-31 18:27:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:27:21 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:27:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:27:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:27:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:27:22 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:27:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:27:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:27:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:27:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:27:23 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:27:30 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:27:30 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:27:32 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:27:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:27:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:27:32 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:27:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:27:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:27:36 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:27:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:27:36 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:27:38 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:27:39 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:27:39 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:27:40 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:27:41 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Grade 1")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Grade 1' is clicked on
+
+2023-05-31 18:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Grade 1' is clicked on
+
+2023-05-31 18:27:43 - [TEST_STEP][PASSED] - navigateToUrl(URL_PAYGRADE): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1' successfully
+
+2023-05-31 18:27:43 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1' successfully
+
+2023-05-31 18:27:43 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_USD_delete Currency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_USD_delete Currency' is clicked on
+
+2023-05-31 18:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_USD_delete Currency' is clicked on
+
+2023-05-31 18:27:49 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Yes, DeleteCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Yes, DeleteCurrency' is clicked on
+
+2023-05-31 18:27:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[14]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/button_Yes, DeleteCurrency'. Try using Self-healing.
+
+2023-05-31 18:27:50 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/button_Yes, DeleteCurrency' was broken. Propose an alternative one: '//div[@id='app']/div[3]/div/div/div/div[3]/button[2]'.
+
+2023-05-31 18:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Yes, DeleteCurrency' is clicked on
+
+2023-05-31 18:27:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Pay Grade/p_Successfully Deleted"), 0): Object 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Deleted' is present
+
+2023-05-31 18:27:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Deleted' is present
+
+2023-05-31 18:27:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Pay Grade/button_Add")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Add' is clicked on
+
+2023-05-31 18:27:51 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/div_-- Select --")): Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/div_-- Select --' is clicked on
+
+2023-05-31 18:27:53 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham' is clicked on
+
+2023-05-31 18:27:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[2]/span)[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham'. Try using Self-healing.
+
+2023-05-31 18:27:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[2]/span'.
+
+2023-05-31 18:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham' is clicked on
+
+2023-05-31 18:27:55 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), "3000"): Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:27:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:27:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:27:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:27:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:27:58 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:27:58 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), "30000"): Text '30000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:27:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:27:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:27:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:28:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:28:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:28:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:28:00 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:28:00 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save_AddCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:28:01 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/p_Successfully Saved")): Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Saved' is clicked on
+
+2023-05-31 18:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/p_Successfully Saved' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC04_Min Salary Higher (N)" time="30.649" classname="Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC04_Min Salary Higher (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:28:03 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC04_Min Salary Higher (N): Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC04_Min Salary Higher (N)
+
+2023-05-31 18:28:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:28:03 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 18:28:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 18:28:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 18:28:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 18:28:04 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 18:28:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 18:28:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 18:28:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 18:28:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 18:28:05 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:28:11 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 18:28:11 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:28:13 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 18:28:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:28:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 18:28:14 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 18:28:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:28:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:28:18 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 18:28:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 18:28:18 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Admin")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Admin' is clicked on
+
+2023-05-31 18:28:19 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:28:20 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 18:28:20 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/span_Job")): Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/span_Job' is clicked on
+
+2023-05-31 18:28:21 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/a_Pay Grades")): Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/a_Pay Grades' is clicked on
+
+2023-05-31 18:28:22 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Grade 1")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Grade 1' is clicked on
+
+2023-05-31 18:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Grade 1' is clicked on
+
+2023-05-31 18:28:23 - [TEST_STEP][PASSED] - navigateToUrl(URL_PAYGRADE): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1' successfully
+
+2023-05-31 18:28:24 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade/1' successfully
+
+2023-05-31 18:28:24 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency' is clicked on
+
+2023-05-31 18:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency' is clicked on
+
+2023-05-31 18:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Minimum Salary"), "3000"): Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:28:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:28:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:28:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:28:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:28:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'. Try using Self-healing.
+
+2023-05-31 18:28:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input'.
+
+2023-05-31 18:28:30 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary'
+
+2023-05-31 18:28:30 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Pay Grade/input_Maximum Salary"), "30"): Text '30' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:28:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:28:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:28:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:28:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-31 18:28:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'. Try using Self-healing.
+
+2023-05-31 18:28:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input'.
+
+2023-05-31 18:28:33 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary'
+
+2023-05-31 18:28:33 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Pay Grade/button_Save_AddCurrency")): Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Pay Grade/button_Save_AddCurrency' is clicked on
+
+2023-05-31 18:28:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Pay Grade/span_Should be higher than Minimum Salary"), 0): Object 'Object Repository/PROJECT WEB/Pay Grade/span_Should be higher than Minimum Salary' is present
+
+2023-05-31 18:28:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:28:34 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Pay Grade/span_Should be higher than Minimum Salary' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-31 18:22:29 - [TEST_SUITE][PASSED] - F2_payGrade: Test Cases/PROJECT WEB/F2_Pay Grades/Edit Currency/PG04_TC04_Min Salary Higher (N)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

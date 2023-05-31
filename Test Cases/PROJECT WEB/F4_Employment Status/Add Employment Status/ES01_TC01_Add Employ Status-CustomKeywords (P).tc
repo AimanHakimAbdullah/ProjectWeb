@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ES01_TC01_Add Employ Status-CustomKeywords (P)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc38595c-6873-4982-9615-8aee270cc25e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e593f788-b619-4427-9ebf-f80396c58bdd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>e593f788-b619-4427-9ebf-f80396c58bdd</id>
+      <masked>false</masked>
+      <name>employStatus</name>
+   </variable>
+</TestCaseEntity>

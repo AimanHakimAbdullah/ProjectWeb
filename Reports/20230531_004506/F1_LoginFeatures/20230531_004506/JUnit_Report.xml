@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="F1_LoginFeatures" time="62.133" tests="3" failures="0" errors="0">
+   <testsuite name="F1_LoginFeatures" tests="3" failures="0" errors="0" time="62.133" skipped="0" timestamp="2023-05-31 00:45:17" hostname="Aiman Hakim - DESKTOP-1FDN2RP" id="Test Suites/F1_LoginFeatures">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230531_004506\\F1_LoginFeatures\\20230531_004506"/>
+         <property name="logFiles" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230531_004506\\F1_LoginFeatures\\20230531_004506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aiman Hakim - DESKTOP-1FDN2RP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="c1abf8426fe0df7ba9ac1ec4258538f0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)" time="18.073" classname="Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 00:45:17 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 00:45:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 00:45:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 00:45:18 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 00:45:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 00:45:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 00:45:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 00:45:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 00:45:21 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:45:28 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:45:28 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:45:31 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:45:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:45:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:45:31 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:45:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:45:35 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC2_USER ENTER INVALID USERNAME (N)" time="15.049" classname="Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC2_USER ENTER INVALID USERNAME (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 00:45:35 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC2_USER ENTER INVALID USERNAME (N): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC2_USER ENTER INVALID USERNAME (N)
+
+2023-05-31 00:45:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 00:45:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-31 00:45:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 00:45:36 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 00:45:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 00:45:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 00:45:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 00:45:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 00:45:38 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:45:44 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:45:44 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), INVALIDUSERNAME): Text 'Admin123' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:45:46 - [MESSAGE][PASSED] - Text 'Admin123' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:45:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:45:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:45:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PROJECT WEB/Common/Page_OrangeHRM/p_Invalid credentials"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/p_Invalid credentials' is present
+
+2023-05-31 00:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:45:50 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/p_Invalid credentials' is present
+
+2023-05-31 00:45:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-31 00:45:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC3_USER ENTER INVALID PASSWORD (N)" time="28.684" classname="Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC3_USER ENTER INVALID PASSWORD (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-31 00:45:50 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC3_USER ENTER INVALID PASSWORD (N): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC3_USER ENTER INVALID PASSWORD (N)
+
+2023-05-31 00:45:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 00:45:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 00:45:51 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 00:45:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 00:45:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 00:45:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 00:45:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 00:45:52 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:46:12 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username"), USERNAME): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:46:15 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:46:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password"), INVALIDPASSWORD): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:46:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:46:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:46:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PROJECT WEB/Common/Page_OrangeHRM/p_Invalid credentials"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/p_Invalid credentials' is present
+
+2023-05-31 00:46:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:46:18 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/p_Invalid credentials' is present
+
+2023-05-31 00:46:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-31 00:46:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-31 00:45:17 - [TEST_SUITE][PASSED] - F1_LoginFeatures: Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC3_USER ENTER INVALID PASSWORD (N)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

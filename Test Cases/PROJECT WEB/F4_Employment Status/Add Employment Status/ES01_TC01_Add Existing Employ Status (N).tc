@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ES01_TC01_Add Existing Employ Status (N)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9836c97-ce17-4c72-a221-f957cb372a82</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>937f436d-547e-4cec-9b2e-9672a0f3b8d9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Part-Timer COntract'</defaultValue>
+      <description></description>
+      <id>937f436d-547e-4cec-9b2e-9672a0f3b8d9</id>
+      <masked>false</masked>
+      <name>existingJob</name>
+   </variable>
+</TestCaseEntity>

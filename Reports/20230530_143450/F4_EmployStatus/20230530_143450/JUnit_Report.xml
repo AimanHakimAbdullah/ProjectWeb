@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="F4_EmployStatus" time="49.527" tests="2" failures="0" errors="0">
+   <testsuite name="F4_EmployStatus" tests="2" failures="0" errors="0" time="49.527" skipped="0" timestamp="2023-05-30 14:35:01" hostname="Aiman Hakim - DESKTOP-1FDN2RP" id="Test Suites/F4_EmployStatus">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230530_143450\\F4_EmployStatus\\20230530_143450"/>
+         <property name="logFiles" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230530_143450\\F4_EmployStatus\\20230530_143450\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aiman Hakim - DESKTOP-1FDN2RP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="1a9a9fd818f64c809356287385ae4942"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Employ Status-CustomKeywords (P)" time="26.535" classname="Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Employ Status-CustomKeywords (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-30 14:35:01 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Employ Status-CustomKeywords (P): Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Employ Status-CustomKeywords (P)
+
+2023-05-30 14:35:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:35:02 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 14:35:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 14:35:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 14:35:03 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 14:35:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 14:35:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 14:35:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 14:35:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 14:35:05 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:35:11 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:35:11 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:35:12 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:35:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:35:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:35:13 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:35:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:35:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:35:17 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:35:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/span_Admin")): Object: 'Object Repository/PROJECT WEB/Employment Status/span_Admin' is clicked on
+
+2023-05-30 14:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/span_Admin' is clicked on
+
+2023-05-30 14:35:18 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:35:19 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/span_Job")): Object: 'Object Repository/PROJECT WEB/Employment Status/span_Job' is clicked on
+
+2023-05-30 14:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/span_Job' is clicked on
+
+2023-05-30 14:35:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/a_Employment Status")): Object: 'Object Repository/PROJECT WEB/Employment Status/a_Employment Status' is clicked on
+
+2023-05-30 14:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/a_Employment Status' is clicked on
+
+2023-05-30 14:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/button_Add_EmploymentStatus")): Object: 'Object Repository/PROJECT WEB/Employment Status/button_Add_EmploymentStatus' is clicked on
+
+2023-05-30 14:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/button_Add_EmploymentStatus' is clicked on
+
+2023-05-30 14:35:22 - [TEST_STEP][PASSED] - result = addEmployStatus.employStatus.addEmploymentStatus(employStatus): addEmployStatus.employStatus.addEmploymentStatus is PASSED
+
+2023-05-30 14:35:22 - [MESSAGE][PASSED] - addEmployStatus.employStatus.addEmploymentStatus is PASSED
+
+2023-05-30 14:35:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Employment Status/input_Name_EmploymentStatus"), result): Text 'Part-Timer COntract' is set on object 'Object Repository/PROJECT WEB/Employment Status/input_Name_EmploymentStatus'
+
+2023-05-30 14:35:24 - [MESSAGE][PASSED] - Text 'Part-Timer COntract' is set on object 'Object Repository/PROJECT WEB/Employment Status/input_Name_EmploymentStatus'
+
+2023-05-30 14:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/button_Save")): Object: 'Object Repository/PROJECT WEB/Employment Status/button_Save' is clicked on
+
+2023-05-30 14:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/button_Save' is clicked on
+
+2023-05-30 14:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/p_Successfully Saved")): Object: 'Object Repository/PROJECT WEB/Employment Status/p_Successfully Saved' is clicked on
+
+2023-05-30 14:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/p_Successfully Saved' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Existing Employ Status (N)" time="22.655" classname="Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Existing Employ Status (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-30 14:35:28 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Existing Employ Status (N): Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Existing Employ Status (N)
+
+2023-05-30 14:35:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:35:28 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 14:35:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 14:35:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-30 14:35:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 14:35:29 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 14:35:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 14:35:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 14:35:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 14:35:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 14:35:30 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:35:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:35:38 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:35:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:35:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:35:38 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:35:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:35:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:35:43 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:35:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/span_Admin")): Object: 'Object Repository/PROJECT WEB/Employment Status/span_Admin' is clicked on
+
+2023-05-30 14:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/span_Admin' is clicked on
+
+2023-05-30 14:35:44 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:35:45 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/span_Job")): Object: 'Object Repository/PROJECT WEB/Employment Status/span_Job' is clicked on
+
+2023-05-30 14:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/span_Job' is clicked on
+
+2023-05-30 14:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/a_Employment Status")): Object: 'Object Repository/PROJECT WEB/Employment Status/a_Employment Status' is clicked on
+
+2023-05-30 14:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/a_Employment Status' is clicked on
+
+2023-05-30 14:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Employment Status/button_Add_EmploymentStatus")): Object: 'Object Repository/PROJECT WEB/Employment Status/button_Add_EmploymentStatus' is clicked on
+
+2023-05-30 14:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Employment Status/button_Add_EmploymentStatus' is clicked on
+
+2023-05-30 14:35:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Employment Status/input_Name_EmploymentStatus"), existingJob): Text 'Part-Timer COntract' is set on object 'Object Repository/PROJECT WEB/Employment Status/input_Name_EmploymentStatus'
+
+2023-05-30 14:35:50 - [MESSAGE][PASSED] - Text 'Part-Timer COntract' is set on object 'Object Repository/PROJECT WEB/Employment Status/input_Name_EmploymentStatus'
+
+2023-05-30 14:35:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PROJECT WEB/Employment Status/span_Already exists"), 0): Object 'Object Repository/PROJECT WEB/Employment Status/span_Already exists' is present
+
+2023-05-30 14:35:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Employment Status/span_Already exists' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-30 14:35:01 - [TEST_SUITE][PASSED] - F4_EmployStatus: Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Existing Employ Status (N)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

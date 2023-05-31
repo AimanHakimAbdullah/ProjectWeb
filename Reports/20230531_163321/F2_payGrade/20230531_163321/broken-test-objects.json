@@ -1,0 +1,64 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input)[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230531_163321/F2_payGrade/20230531_163321/Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/p_Successfully Updated",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div/div/div[2]/p[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230531_163321/F2_payGrade/20230531_163321/Object Repository/PROJECT WEB/Pay Grade/p_Successfully Updated_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[2]/span)[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027-- Select --\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230531_163321/F2_payGrade/20230531_163321/Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230531_163321/F2_payGrade/20230531_163321/Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230531_163321/F2_payGrade/20230531_163321/Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230531_163321/F2_payGrade/20230531_163321/Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency_neighbor.png"
+    }
+  ]
+}

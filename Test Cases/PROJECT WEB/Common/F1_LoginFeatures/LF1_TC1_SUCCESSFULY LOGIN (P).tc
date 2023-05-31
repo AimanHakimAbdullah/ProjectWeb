@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LF1_TC1_SUCCESSFULY LOGIN (P)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c0980e0-ce6f-4474-9c84-b029a963938e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03806fa0-7f87-4af7-887e-23f58b4dde9a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc1b088f-99e8-4d9f-9865-c497dc890ad5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>03806fa0-7f87-4af7-887e-23f58b4dde9a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'hUKwJTbofgPU9eVlw/CnDQ=='</defaultValue>
+      <description></description>
+      <id>fc1b088f-99e8-4d9f-9865-c497dc890ad5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

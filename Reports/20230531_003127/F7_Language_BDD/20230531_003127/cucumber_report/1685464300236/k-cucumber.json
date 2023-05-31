@@ -1,0 +1,322 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "ea9a41f7-7374-433a-9820-f03de7014154",
+        "line": 15,
+        "name": "Successfully add new language",
+        "description": "",
+        "id": "add-new-language-bdd;successfully-add-new-language;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21755784700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is navigated to Language Page",
+            "match": {
+              "location": "stepAddNewLanguage.UserNavigatedtoLangPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "21f0d75c-8a57-43e8-a0a9-567025409ffb"
+          },
+          {
+            "result": {
+              "duration": 1838646800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the Add Language button",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_on_Add_Language_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a88a895b-562f-4795-9617-a850d6680f91"
+          },
+          {
+            "result": {
+              "duration": 2002604500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters preferred language Malay",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Malay",
+                  "offset": 31
+                }
+              ],
+              "location": "stepAddNewLanguage.Enters_preferred_Language(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e8481367-62b2-4a02-b372-080048af06d0"
+          },
+          {
+            "result": {
+              "duration": 372843100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Save button at Language page",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_Savebutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "91319b18-5b29-4f41-b977-2385a461a833"
+          },
+          {
+            "result": {
+              "duration": 2142427000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User able to add and save Language successfully",
+            "match": {
+              "location": "stepAddNewLanguage.AbletoSaveLanguage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "88926214-2920-4616-aec9-5b39dea0f846"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "1d3cf4d3-e725-4bfc-a5bd-5d3c6ad6d12e",
+        "line": 16,
+        "name": "Successfully add new language",
+        "description": "",
+        "id": "add-new-language-bdd;successfully-add-new-language;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17174712600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is navigated to Language Page",
+            "match": {
+              "location": "stepAddNewLanguage.UserNavigatedtoLangPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "4e1fffcf-70e9-44b4-a693-e19546d19b81"
+          },
+          {
+            "result": {
+              "duration": 1881002100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the Add Language button",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_on_Add_Language_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "41ca5188-73e6-4225-8840-33ffe9c39e4d"
+          },
+          {
+            "result": {
+              "duration": 1889348900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters preferred language Tamil",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamil",
+                  "offset": 31
+                }
+              ],
+              "location": "stepAddNewLanguage.Enters_preferred_Language(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ba78576a-61ed-4e71-834b-f79384464635"
+          },
+          {
+            "result": {
+              "duration": 391809400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Save button at Language page",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_Savebutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "91c463bb-6631-456a-990e-807d586b372a"
+          },
+          {
+            "result": {
+              "duration": 2189989400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User able to add and save Language successfully",
+            "match": {
+              "location": "stepAddNewLanguage.AbletoSaveLanguage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "69905acb-e3c4-42df-a23b-4ad82827194c"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "efbc6927-bfc9-44d0-aafd-2eef462c23f4",
+        "line": 31,
+        "name": "Fail to add existing language",
+        "description": "",
+        "id": "add-new-language-bdd;fail-to-add-existing-language;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18118996800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is navigated to Language Page",
+            "match": {
+              "location": "stepAddNewLanguage.UserNavigatedtoLangPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "46959a66-0602-41dc-99ee-414d376daa6e"
+          },
+          {
+            "result": {
+              "duration": 1205337000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the Add Language button",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_on_Add_Language_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "68e9b7ab-b4f2-4951-b623-bf7594c8124d"
+          },
+          {
+            "result": {
+              "duration": 1328723500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters exist language Russian",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Russian",
+                  "offset": 27
+                }
+              ],
+              "location": "stepAddNewLanguage.Enters_existing_Language(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "407c66a5-363b-4cac-9bd9-e29061e3fd51"
+          },
+          {
+            "result": {
+              "duration": 518202300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on Save button at Language page",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_Savebutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "994af058-913c-401e-8b61-8bfd6e25c746"
+          },
+          {
+            "result": {
+              "duration": 1081870900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is shown popup messages on already exist",
+            "match": {
+              "location": "stepAddNewLanguage.Popupmessagesalreadyexist()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "27828039-e12d-408e-a154-6120969c6ee2"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4a2e6da8-0d0b-4cd3-9b71-8899100e4442",
+        "line": 33,
+        "name": "Language leave blank",
+        "description": "",
+        "id": "add-new-language-bdd;language-leave-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16966556600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User is navigated to Language Page",
+            "match": {
+              "location": "stepAddNewLanguage.UserNavigatedtoLangPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "0da4dd0f-b426-418a-b5ea-fed65a2f6f94"
+          },
+          {
+            "result": {
+              "duration": 1875097200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks on the Add Language button",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_on_Add_Language_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "2e9703ec-8061-4e47-8261-81e7c9f5ac1e"
+          },
+          {
+            "result": {
+              "duration": 847978500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User clicks on Save button at Language page",
+            "match": {
+              "location": "stepAddNewLanguage.clicks_Savebutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c218f188-959c-4a02-83cd-34ac5259b79f"
+          },
+          {
+            "result": {
+              "duration": 1102350700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is shown with messages on required",
+            "match": {
+              "location": "stepAddNewLanguage.Requiredmessages()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "b14a69bd-1559-4a16-95e5-5ae26d54e260"
+          }
+        ]
+      }
+    ],
+    "name": "Add New Language_BDD",
+    "description": "",
+    "id": "add-new-language-bdd",
+    "keyword": "Feature",
+    "uri": "C:/Users/Aiman Hakim/Katalon Studio/PROJECT WEB_ASSESSMENT PROTEGE/Include/features/Add New Language_BDD.feature",
+    "tags": []
+  }
+]

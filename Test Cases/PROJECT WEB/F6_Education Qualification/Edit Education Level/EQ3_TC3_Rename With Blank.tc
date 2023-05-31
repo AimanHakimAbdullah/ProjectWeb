@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EQ3_TC3_Rename With Blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23a88a00-1ee3-4a4b-bc1f-a2ca80a613f6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea695ed3-315b-487e-9dd4-8afb738def57</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea695ed3-315b-487e-9dd4-8afb738def57</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

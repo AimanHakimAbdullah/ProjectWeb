@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230530_145852/F6_EduQualification/20230530_145852/Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma_customAttributes.png"
+    }
+  ]
+}

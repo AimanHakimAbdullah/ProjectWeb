@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>F4_EmployStatus</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>3979e03b-ccdf-45df-ac64-8d89014b6048</testSuiteGuid>
+   <testCaseLink>
+      <guid>bf86535d-1622-4551-9f23-c9dc5e0eb07c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Employ Status-CustomKeywords (P)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e593f788-b619-4427-9ebf-f80396c58bdd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a745d0ae-cb02-422a-9b1a-b7d76da82d63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Existing Employ Status (N)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>937f436d-547e-4cec-9b2e-9672a0f3b8d9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

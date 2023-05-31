@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="F6_EduQualification" time="161.622" tests="6" failures="0" errors="0">
+   <testsuite name="F6_EduQualification" tests="6" failures="0" errors="0" time="161.622" skipped="0" timestamp="2023-05-30 14:59:04" hostname="Aiman Hakim - DESKTOP-1FDN2RP" id="Test Suites/F6_EduQualification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230530_145852\\F6_EduQualification\\20230530_145852"/>
+         <property name="logFiles" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230530_145852\\F6_EduQualification\\20230530_145852\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230530_145852\\F6_EduQualification\\20230530_145852\\1685430003713.png, C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230530_145852\\F6_EduQualification\\20230530_145852\\1685430003874.png"/>
+         <property name="hostName" value="Aiman Hakim - DESKTOP-1FDN2RP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="4e232240b69f07366c37d5313d008054"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC1_Add Education Level Success (P)" time="24.298" classname="Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC1_Add Education Level Success (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-30 14:59:04 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC1_Add Education Level Success (P): Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC1_Add Education Level Success (P)
+
+2023-05-30 14:59:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:59:05 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 14:59:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 14:59:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 14:59:05 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 14:59:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 14:59:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 14:59:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 14:59:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 14:59:08 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:59:14 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:59:14 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:59:16 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:59:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:59:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:59:16 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:59:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:59:21 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:59:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:59:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 14:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 14:59:22 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:59:22 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:59:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications' is clicked on
+
+2023-05-30 14:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications' is clicked on
+
+2023-05-30 14:59:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 14:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 14:59:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add' is clicked on
+
+2023-05-30 14:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add' is clicked on
+
+2023-05-30 14:59:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus"), eduLevel): Text 'SPM-Sijil Pelajaran Malaysia' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus'
+
+2023-05-30 14:59:27 - [MESSAGE][PASSED] - Text 'SPM-Sijil Pelajaran Malaysia' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus'
+
+2023-05-30 14:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save' is clicked on
+
+2023-05-30 14:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save' is clicked on
+
+2023-05-30 14:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/div_SuccessSuccessfully Saved")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/div_SuccessSuccessfully Saved' is clicked on
+
+2023-05-30 14:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/div_SuccessSuccessfully Saved' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC2_Same Skill Name (N)" time="21.337" classname="Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC2_Same Skill Name (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-30 14:59:28 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC2_Same Skill Name (N): Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC2_Same Skill Name (N)
+
+2023-05-30 14:59:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:59:29 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 14:59:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 14:59:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-30 14:59:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 14:59:29 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 14:59:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 14:59:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 14:59:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 14:59:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 14:59:31 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:59:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 14:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:59:38 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 14:59:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:59:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 14:59:39 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 14:59:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:59:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:59:42 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 14:59:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 14:59:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 14:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 14:59:44 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:59:44 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 14:59:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications' is clicked on
+
+2023-05-30 14:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications' is clicked on
+
+2023-05-30 14:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 14:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 14:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add' is clicked on
+
+2023-05-30 14:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add' is clicked on
+
+2023-05-30 14:59:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus"), eduLevel): Text 'SPM-Sijil Pelajaran Malaysia' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus'
+
+2023-05-30 14:59:49 - [MESSAGE][PASSED] - Text 'SPM-Sijil Pelajaran Malaysia' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus'
+
+2023-05-30 14:59:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/span_Already exists"), 0): Object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Already exists' is present
+
+2023-05-30 14:59:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 14:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Already exists' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC3_Not Enter Education Level (N)" time="25.334" classname="Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC3_Not Enter Education Level (N)" status="PASSED">
+         <system-out><![CDATA[2023-05-30 15:00:04 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC3_Not Enter Education Level (N): Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC3_Not Enter Education Level (N)
+
+2023-05-30 15:00:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 15:00:04 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 15:00:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 15:00:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-30 15:00:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 15:00:04 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 15:00:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 15:00:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 15:00:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 15:00:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 15:00:06 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 15:00:11 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 15:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 15:00:13 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 15:00:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 15:00:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 15:00:13 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 15:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 15:00:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 15:00:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 15:00:18 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 15:00:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 15:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 15:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 15:00:19 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 15:00:20 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 15:00:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications' is clicked on
+
+2023-05-30 15:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications' is clicked on
+
+2023-05-30 15:00:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 15:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 15:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add' is clicked on
+
+2023-05-30 15:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Add' is clicked on
+
+2023-05-30 15:00:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus"), ""): Text '' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus'
+
+2023-05-30 15:00:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus'
+
+2023-05-30 15:00:28 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/button_Save")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save' is clicked on
+
+2023-05-30 15:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save' is clicked on
+
+2023-05-30 15:00:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/span_Required"), 0): Object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Required' is present
+
+2023-05-30 15:00:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 15:00:29 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC1_Rename Education Level Successful (P)" time="28.935" classname="Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC1_Rename Education Level Successful (P)" status="PASSED">
+         <system-out><![CDATA[2023-05-30 15:00:29 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC1_Rename Education Level Successful (P): Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC1_Rename Education Level Successful (P)
+
+2023-05-30 15:00:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 15:00:29 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 15:00:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 15:00:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-30 15:00:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 15:00:30 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 15:00:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 15:00:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 15:00:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 15:00:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 15:00:31 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 15:00:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 15:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 15:00:38 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 15:00:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 15:00:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 15:00:39 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 15:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 15:00:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 15:00:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 15:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 15:00:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 15:00:42 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 15:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 15:00:44 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 15:00:44 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 15:00:44 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications' is clicked on
+
+2023-05-30 15:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications' is clicked on
+
+2023-05-30 15:00:46 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/a_Education")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 15:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 15:00:47 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma' is clicked on
+
+2023-05-30 15:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma' is clicked on
+
+2023-05-30 15:00:49 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2' successfully
+
+2023-05-30 15:00:52 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2' successfully
+
+2023-05-30 15:00:52 - [TEST_STEP][PASSED] - doubleClick(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank' is double clicked on
+
+2023-05-30 15:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank' is double clicked on
+
+2023-05-30 15:00:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:00:55 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:00:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank"), Keys.chord(" ")): Keys ' ' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:00:55 - [MESSAGE][PASSED] - Keys ' ' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank"), "HighSchool"): Text 'HighSchool' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:00:56 - [MESSAGE][PASSED] - Text 'HighSchool' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:00:56 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/button_Save")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save' is clicked on
+
+2023-05-30 15:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save' is clicked on
+
+2023-05-30 15:00:56 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/p_Success")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/p_Success' is clicked on
+
+2023-05-30 15:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/p_Success' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC2_Rename With Same Name" time="24.636" classname="Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC2_Rename With Same Name" status="PASSED">
+         <system-out><![CDATA[2023-05-30 15:00:58 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC2_Rename With Same Name: Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC2_Rename With Same Name
+
+2023-05-30 15:00:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 15:00:58 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 15:00:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 15:00:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-30 15:00:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 15:00:59 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 15:00:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 15:01:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 15:01:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 15:01:00 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 15:01:00 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 15:01:06 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 15:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 15:01:08 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 15:01:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 15:01:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 15:01:08 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 15:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 15:01:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 15:01:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 15:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 15:01:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 15:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin (1)")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin (1)' is clicked on
+
+2023-05-30 15:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin (1)' is clicked on
+
+2023-05-30 15:01:14 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 15:01:14 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 15:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications (1)")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications (1)' is clicked on
+
+2023-05-30 15:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications (1)' is clicked on
+
+2023-05-30 15:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education (1)")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education (1)' is clicked on
+
+2023-05-30 15:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education (1)' is clicked on
+
+2023-05-30 15:01:17 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2' successfully
+
+2023-05-30 15:01:17 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2' successfully
+
+2023-05-30 15:01:17 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma' is clicked on
+
+2023-05-30 15:01:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[7]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-30 15:01:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma'. Try using Self-healing.
+
+2023-05-30 15:01:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma' was broken. Propose an alternative one: '//button[@type = 'button']'.
+
+2023-05-30 15:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma' is clicked on
+
+2023-05-30 15:01:19 - [TEST_STEP][PASSED] - doubleClick(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank' is double clicked on
+
+2023-05-30 15:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank' is double clicked on
+
+2023-05-30 15:01:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:01:20 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:01:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:01:21 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:01:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_college"), "College Undergraduate"): Text 'College Undergraduate' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_college'
+
+2023-05-30 15:01:22 - [MESSAGE][PASSED] - Text 'College Undergraduate' is set on object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_college'
+
+2023-05-30 15:01:22 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/button_Save")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save' is clicked on
+
+2023-05-30 15:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Save' is clicked on
+
+2023-05-30 15:01:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/span_Already exists"), 0): Object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Already exists' is present
+
+2023-05-30 15:01:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 15:01:22 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Already exists' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC3_Rename With Blank" time="22.801" classname="Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC3_Rename With Blank" status="PASSED">
+         <system-out><![CDATA[2023-05-30 15:01:22 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC3_Rename With Blank: Test Cases/PROJECT WEB/F6_Education Qualification/Edit Education Level/EQ3_TC3_Rename With Blank
+
+2023-05-30 15:01:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)"), ["username":"Admin", "password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 15:01:23 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-30 15:01:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-30 15:01:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-30 15:01:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-30 15:01:24 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-30 15:01:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-30 15:01:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-30 15:01:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-30 15:01:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-30 15:01:25 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 15:01:31 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-30 15:01:31 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 15:01:32 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-30 15:01:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 15:01:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-30 15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-30 15:01:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 15:01:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 15:01:37 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-30 15:01:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-30 15:01:37 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 15:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Admin' is clicked on
+
+2023-05-30 15:01:38 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 15:01:39 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-30 15:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications (1)")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications (1)' is clicked on
+
+2023-05-30 15:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Qualifications (1)' is clicked on
+
+2023-05-30 15:01:40 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/a_Education")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 15:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/a_Education' is clicked on
+
+2023-05-30 15:01:41 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2' successfully
+
+2023-05-30 15:01:41 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEducation/2' successfully
+
+2023-05-30 15:01:41 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma' is clicked on
+
+2023-05-30 15:01:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[7]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-30 15:01:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma'. Try using Self-healing.
+
+2023-05-30 15:01:44 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma' was broken. Propose an alternative one: '//button[@type = 'button']'.
+
+2023-05-30 15:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma' is clicked on
+
+2023-05-30 15:01:44 - [TEST_STEP][PASSED] - doubleClick(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank")): Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank' is double clicked on
+
+2023-05-30 15:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank' is double clicked on
+
+2023-05-30 15:01:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:01:44 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:01:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:01:45 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank'
+
+2023-05-30 15:01:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Education Level/Page_OrangeHRM/span_Required"), 0): Object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Required' is present
+
+2023-05-30 15:01:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-30 15:01:45 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/span_Required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-30 14:59:04 - [TEST_SUITE][FAILED] - F6_EduQualification: Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC3_Not Enter Education Level (N) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at EQ1_TC3_Not Enter Education Level (N).run(EQ1_TC3_Not Enter Education Level (N):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685429932357.run(TempTestSuite1685429932357.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at LF1_TC1_SUCCESSFULY LOGIN (P).run(LF1_TC1_SUCCESSFULY LOGIN (P):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' located by '//div[@id='app']/div/div/header/div/div/span/h6' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2023-05-30 14:59:04 - [TEST_SUITE][FAILED] - F6_EduQualification: Test Cases/PROJECT WEB/F6_Education Qualification/Add Education Level/EQ1_TC3_Not Enter Education Level (N) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at EQ1_TC3_Not Enter Education Level (N).run(EQ1_TC3_Not Enter Education Level (N):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685429932357.run(TempTestSuite1685429932357.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at LF1_TC1_SUCCESSFULY LOGIN (P).run(LF1_TC1_SUCCESSFULY LOGIN (P):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' located by '//div[@id='app']/div/div/header/div/div/span/h6' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

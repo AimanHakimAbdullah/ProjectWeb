@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "34D14DE9240FD33FA3BF94D26DC2F6D9",
+  "keywordClasses": [
+    {
+      "name": "addEmployStatus.employStatus",
+      "keywordMethods": [
+        {
+          "name": "addEmploymentStatus",
+          "parameters": [
+            {
+              "name": "status",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

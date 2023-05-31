@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>F3_JobTitles</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>8c3c6413-3281-447d-b830-62199de4f86e</testSuiteGuid>
+   <testCaseLink>
+      <guid>3dc86aa0-9bec-4be5-bcfc-faeba3dc5605</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC01_Add Job Titles Success_DDT (P)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>273d0d7e-2cc1-4d0d-9abc-ef6022e21ba4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Project Web_DDT</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>273d0d7e-2cc1-4d0d-9abc-ef6022e21ba4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobtitles</value>
+         <variableId>82eb2c86-3e74-4266-92c3-982d767659c9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>273d0d7e-2cc1-4d0d-9abc-ef6022e21ba4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>c22ea210-ed7a-4d20-a023-0f2f1a21daeb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>273d0d7e-2cc1-4d0d-9abc-ef6022e21ba4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>textnote</value>
+         <variableId>2b09c5dc-bc56-48ed-9269-7d5ff1e59c0c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>273d0d7e-2cc1-4d0d-9abc-ef6022e21ba4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>uploadfile</value>
+         <variableId>9f6e87d9-e923-463d-ac08-c5cb1d061130</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a22cbfff-83c3-40aa-b0cc-fc35a35f674b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC02_Add Exist Job Titles (N)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ea1e6c3-ab2a-45e9-8571-af9a54dd0e4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC03_File Exceed 1MB (N)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3bfea401-12d8-4ab1-92e1-9fb8c7431e19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC04_Leave Job Title Blank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

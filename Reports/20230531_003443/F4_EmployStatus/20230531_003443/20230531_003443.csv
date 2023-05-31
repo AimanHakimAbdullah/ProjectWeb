@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+F4_EmployStatus,Chrome 113.0.0.0,,,2023-05-31 00:34:55,2023-05-31 00:36:43,1m - 47.988s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Employ Status-CustomKeywords (P),Chrome 113.0.0.0,,,2023-05-31 00:34:56,2023-05-31 00:35:38,41.793s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 00:34:57,2023-05-31 00:35:25,28.289s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/span_Admin""))",Chrome 113.0.0.0,,,2023-05-31 00:35:25,2023-05-31 00:35:27,1.640s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 00:35:27,2023-05-31 00:35:28,1.052s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/span_Job""))",Chrome 113.0.0.0,,,2023-05-31 00:35:28,2023-05-31 00:35:30,1.841s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/a_Employment Status""))",Chrome 113.0.0.0,,,2023-05-31 00:35:30,2023-05-31 00:35:32,2.298s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/button_Add_EmploymentStatus""))",Chrome 113.0.0.0,,,2023-05-31 00:35:32,2023-05-31 00:35:35,2.682s,PASSED
+result = addEmployStatus.employStatus.addEmploymentStatus(employStatus),Chrome 113.0.0.0,,,2023-05-31 00:35:35,2023-05-31 00:35:35,0.020s,PASSED
+"setText(findTestObject(""Object Repository/PROJECT WEB/Employment Status/input_Name_EmploymentStatus""), result)",Chrome 113.0.0.0,,,2023-05-31 00:35:35,2023-05-31 00:35:36,1.571s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 00:35:36,2023-05-31 00:35:37,0.444s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-31 00:35:37,2023-05-31 00:35:38,0.963s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F4_Employment Status/Add Employment Status/ES01_TC01_Add Existing Employ Status (N),Chrome 113.0.0.0,,,2023-05-31 00:35:38,2023-05-31 00:36:43,1m - 5.729s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 00:35:38,2023-05-31 00:36:35,56.772s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/span_Admin""))",Chrome 113.0.0.0,,,2023-05-31 00:36:35,2023-05-31 00:36:37,1.937s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 00:36:37,2023-05-31 00:36:37,0.639s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/span_Job""))",Chrome 113.0.0.0,,,2023-05-31 00:36:37,2023-05-31 00:36:38,0.916s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/a_Employment Status""))",Chrome 113.0.0.0,,,2023-05-31 00:36:38,2023-05-31 00:36:39,0.974s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Employment Status/button_Add_EmploymentStatus""))",Chrome 113.0.0.0,,,2023-05-31 00:36:39,2023-05-31 00:36:40,1.112s,PASSED
+"setText(findTestObject(""Object Repository/PROJECT WEB/Employment Status/input_Name_EmploymentStatus""), existingJob)",Chrome 113.0.0.0,,,2023-05-31 00:36:40,2023-05-31 00:36:43,2.444s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PROJECT WEB/Employment Status/span_Already exists""), 0)",Chrome 113.0.0.0,,,2023-05-31 00:36:43,2023-05-31 00:36:43,0.505s,PASSED

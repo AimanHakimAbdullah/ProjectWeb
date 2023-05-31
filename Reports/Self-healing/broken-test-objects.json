@@ -1,0 +1,403 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Sijil Pelajaran Malaysia_oxd-icon-bu_9b8232",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[12]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Sijil Pelajaran Malaysia_oxd-icon-bu_9b8232_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_Level_oxd-input oxd-input--focus_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/div_SuccessSuccessfully Saved",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Yes, Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[13]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Yes, Delete_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/p_Success",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div/div/div[2]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Education Level/p_Success_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/input_wanttosetblank_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma (1)",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma (1)_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Education Level/Page_OrangeHRM/button_Diploma_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Categories/button_Yes, Delete_CraftWorker",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[35]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Categories/button_Yes, Delete_CraftWorker_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Categories/button_Professional IT_Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[22]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027PartTime12\u0027])[1]/following::button[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Categories/button_Professional IT_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Categories/button_Yes, Delete_JC",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[27]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Categories/button_Yes, Delete_JC_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Categories/button_Professional IT_Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[22]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Professional IT\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Categories/button_Professional IT_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Categories/button_Professional IT_Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[22]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Professionals\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Categories/button_Professional IT_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Categories/span_Job",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/header/div[2]/nav/ul/li[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Management\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Categories/span_Job_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Categories/button_Craft Workers_Delete",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Categories/button_Craft Workers_Delete_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Categories/i_Technicians_Delete",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div[3]/div/div[3]/div/button/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div[3]/div/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Categories/i_Technicians_Delete_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Employment Status/button_Yes, Delete Full Time",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[19]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Employment Status/button_Yes, Delete Full Time_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Employment Status/i_Full-Time Contract_Delete",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div[3]/div/div[2]/div[2]/div/div[3]/div/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Employment Status/i_Full-Time Contract_Delete_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Employment Status/button_Tester QA_delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[16]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Part-Time Internship\u0027])[1]/following::button[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Employment Status/button_Tester QA_delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Dummy/Page_OrangeHRM/span_Anthony Chibuike Anadebe",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div[2]/div/div[2]/div/div[2]/div[3]/span)[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Anthony Chibuike Anadebe\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Dummy/Page_OrangeHRM/div_User Role",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div/div)[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[(text() \u003d \u0027-- Select --\u0027 or . \u003d \u0027-- Select --\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Dummy/Page_OrangeHRM/div_User Role_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/p_Successfully Updated",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div/div/div[2]/p[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/p_Successfully Updated_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input)[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/input_Name_Pay Grade_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input)[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/input_Minimum Salary_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input)[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/input_Maximum Salary_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[2]/span)[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/span_AFN - Afghanistan Afghani",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[3]/span)[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/span_AFN - Afghanistan Afghani_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/span_ALL - Albanian Lek",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[4]/span)[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[4]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/span_ALL - Albanian Lek_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham",
+      "brokenLocator": "(//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div[2]/form/div/div/div/div/div[2]/div/div[2]/div[2]/span)[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027-- Select --\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/span_AED - Utd. Arab Emir. Dirham_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_Utd. Arab Emir. Dirham",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[9]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/button_Utd. Arab Emir. Dirham_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_Yes, DeleteCurrency",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[14]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/button_Yes, DeleteCurrency_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_Albanian Lek_",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/button_Albanian Lek__position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_Argentina Pesos_",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Albanian Lek\u0027])[1]/following::button[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/button_Argentina Pesos__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/div/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_USD_delete Currency",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/button_USD_delete Currency_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Dummy/dummy/Page_OrangeHRM/p_Successfully Saved",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div/div/div[2]/p[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div/div/div[2]/p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Dummy/dummy/Page_OrangeHRM/p_Successfully Saved_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Titles/button_Yes, Delete_JobTitle",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[27]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Titles/button_Yes, Delete_JobTitle_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Job Titles/button_VP - Sales  Marketing_Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[10]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027VP - Sales \u0026 Marketing\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Job Titles/button_VP - Sales  Marketing_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PROJECT WEB/Pay Grade/button_United States Dollar_Edit Currency_neighbor.png"
+    }
+  ]
+}

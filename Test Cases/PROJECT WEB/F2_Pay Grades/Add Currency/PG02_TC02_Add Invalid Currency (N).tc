@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PG02_TC02_Add Invalid Currency (N)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0afe9068-a2d5-47e5-9636-d6821f3a3648</testCaseGuid>
+</TestCaseEntity>

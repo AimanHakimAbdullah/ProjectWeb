@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>JT01_TC03_File Exceed 1MB (N)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c67cec96-928c-4ced-95d6-74829c3087a3</testCaseGuid>
+</TestCaseEntity>

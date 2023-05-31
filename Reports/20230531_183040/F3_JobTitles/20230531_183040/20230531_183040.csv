@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+F3_JobTitles,Chrome 113.0.0.0,,,2023-05-31 18:30:52,2023-05-31 18:34:19,3m - 26.987s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC01_Add Job Titles Success_DDT (P),Chrome 113.0.0.0,,,2023-05-31 18:30:52,2023-05-31 18:31:21,29.103s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 18:30:53,2023-05-31 18:31:09,15.683s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Admin_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:31:09,2023-05-31 18:31:10,1.272s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 18:31:10,2023-05-31 18:31:10,0.555s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Job_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:31:10,2023-05-31 18:31:12,2.045s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/a_Job Titles""))",Chrome 113.0.0.0,,,2023-05-31 18:31:12,2023-05-31 18:31:13,1.009s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/button_Add_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:31:13,2023-05-31 18:31:16,2.213s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/input_Job Title""), jobtitles)",Chrome 113.0.0.0,,,2023-05-31 18:31:16,2023-05-31 18:31:18,2.240s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_Job Description_JT""), description)",Chrome 113.0.0.0,,,2023-05-31 18:31:18,2023-05-31 18:31:19,0.702s,PASSED
+"uploadFile(findTestObject(""PROJECT WEB/Job Titles/div_InputFile""), uploadfile)",Chrome 113.0.0.0,,,2023-05-31 18:31:19,2023-05-31 18:31:19,0.400s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_For Note_JT""), textnote)",Chrome 113.0.0.0,,,2023-05-31 18:31:19,2023-05-31 18:31:20,0.814s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 18:31:20,2023-05-31 18:31:20,0.415s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-31 18:31:20,2023-05-31 18:31:21,1.260s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC01_Add Job Titles Success_DDT (P),Chrome 113.0.0.0,,,2023-05-31 18:31:22,2023-05-31 18:31:52,30.540s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 18:31:22,2023-05-31 18:31:39,17.279s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Admin_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:31:39,2023-05-31 18:31:40,1.465s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 18:31:40,2023-05-31 18:31:41,0.559s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Job_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:31:41,2023-05-31 18:31:42,1.644s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/a_Job Titles""))",Chrome 113.0.0.0,,,2023-05-31 18:31:42,2023-05-31 18:31:44,1.062s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/button_Add_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:31:44,2023-05-31 18:31:46,2.152s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/input_Job Title""), jobtitles)",Chrome 113.0.0.0,,,2023-05-31 18:31:46,2023-05-31 18:31:48,1.871s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_Job Description_JT""), description)",Chrome 113.0.0.0,,,2023-05-31 18:31:48,2023-05-31 18:31:48,0.717s,PASSED
+"uploadFile(findTestObject(""PROJECT WEB/Job Titles/div_InputFile""), uploadfile)",Chrome 113.0.0.0,,,2023-05-31 18:31:48,2023-05-31 18:31:49,0.348s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_For Note_JT""), textnote)",Chrome 113.0.0.0,,,2023-05-31 18:31:49,2023-05-31 18:31:49,0.826s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 18:31:49,2023-05-31 18:31:50,0.377s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-31 18:31:50,2023-05-31 18:31:52,2.228s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC01_Add Job Titles Success_DDT (P),Chrome 113.0.0.0,,,2023-05-31 18:31:52,2023-05-31 18:32:20,27.876s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 18:31:52,2023-05-31 18:32:07,15.020s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Admin_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:32:07,2023-05-31 18:32:08,1.274s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 18:32:08,2023-05-31 18:32:09,0.550s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Job_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:32:09,2023-05-31 18:32:11,1.861s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/a_Job Titles""))",Chrome 113.0.0.0,,,2023-05-31 18:32:11,2023-05-31 18:32:12,0.990s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/button_Add_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:32:12,2023-05-31 18:32:14,2.393s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/input_Job Title""), jobtitles)",Chrome 113.0.0.0,,,2023-05-31 18:32:14,2023-05-31 18:32:16,2.196s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_Job Description_JT""), description)",Chrome 113.0.0.0,,,2023-05-31 18:32:16,2023-05-31 18:32:17,0.688s,PASSED
+"uploadFile(findTestObject(""PROJECT WEB/Job Titles/div_InputFile""), uploadfile)",Chrome 113.0.0.0,,,2023-05-31 18:32:17,2023-05-31 18:32:17,0.350s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_For Note_JT""), textnote)",Chrome 113.0.0.0,,,2023-05-31 18:32:17,2023-05-31 18:32:18,0.817s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 18:32:18,2023-05-31 18:32:19,0.374s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/p_Successfully Saved""))",Chrome 113.0.0.0,,,2023-05-31 18:32:19,2023-05-31 18:32:20,1.351s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC02_Add Exist Job Titles (N),Chrome 113.0.0.0,,,2023-05-31 18:32:20,2023-05-31 18:32:48,27.887s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 18:32:20,2023-05-31 18:32:35,14.647s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Admin_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:32:35,2023-05-31 18:32:36,1.395s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 18:32:36,2023-05-31 18:32:37,0.551s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Job_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:32:37,2023-05-31 18:32:39,1.747s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/a_Job Titles""))",Chrome 113.0.0.0,,,2023-05-31 18:32:39,2023-05-31 18:32:40,0.975s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/button_Add_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:32:40,2023-05-31 18:32:42,2.401s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/input_Job Title""), ""Lead"")",Chrome 113.0.0.0,,,2023-05-31 18:32:42,2023-05-31 18:32:45,3.098s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_Job Description_JT""), ""Supervise People"")",Chrome 113.0.0.0,,,2023-05-31 18:32:45,2023-05-31 18:32:46,0.817s,PASSED
+"uploadFile(findTestObject(""PROJECT WEB/Job Titles/div_InputFile""), ""C:\Users\Aiman Hakim\Downloads\Job Description Dummy.pdf"")",Chrome 113.0.0.0,,,2023-05-31 18:32:46,2023-05-31 18:32:46,0.387s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_For Note_JT""), ""Good Luck"")",Chrome 113.0.0.0,,,2023-05-31 18:32:46,2023-05-31 18:32:47,0.800s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 18:32:47,2023-05-31 18:32:48,0.362s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Job Titles/span_Already exists_JT""), 0)",Chrome 113.0.0.0,,,2023-05-31 18:32:48,2023-05-31 18:32:48,0.355s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC03_File Exceed 1MB (N),Chrome 113.0.0.0,,,2023-05-31 18:32:48,2023-05-31 18:33:53,1m - 5.000s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 18:32:48,2023-05-31 18:33:03,14.570s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Admin_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:33:03,2023-05-31 18:33:04,1.553s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 18:33:04,2023-05-31 18:33:05,0.653s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Job_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:33:05,2023-05-31 18:33:07,1.690s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/a_Job Titles""))",Chrome 113.0.0.0,,,2023-05-31 18:33:07,2023-05-31 18:33:08,1.006s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/button_Add_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:33:08,2023-05-31 18:33:10,2.242s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/input_Job Title""), ""Lead"")",Chrome 113.0.0.0,,,2023-05-31 18:33:10,2023-05-31 18:33:50,40.074s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_Job Description_JT""), ""Supervise People"")",Chrome 113.0.0.0,,,2023-05-31 18:33:50,2023-05-31 18:33:51,0.811s,PASSED
+"uploadFile(findTestObject(""PROJECT WEB/Job Titles/div_InputFile""), ""C:\Users\Aiman Hakim\Downloads\Free_Test_Data_10.5MB_PDF.pdf"")",Chrome 113.0.0.0,,,2023-05-31 18:33:51,2023-05-31 18:33:51,0.359s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_For Note_JT""), ""Good Luck"")",Chrome 113.0.0.0,,,2023-05-31 18:33:51,2023-05-31 18:33:52,0.928s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 18:33:52,2023-05-31 18:33:53,0.372s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Job Titles/span_Attachment Size Exceeded_JT""), 0)",Chrome 113.0.0.0,,,2023-05-31 18:33:53,2023-05-31 18:33:53,0.351s,PASSED
+,,,,,,,
+Test Cases/PROJECT WEB/F3_Job Titles/Add Job Titles/JT01_TC04_Leave Job Title Blank,Chrome 113.0.0.0,,,2023-05-31 18:33:53,2023-05-31 18:34:19,25.977s,PASSED
+"callTestCase(findTestCase(""PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)""), [""username"":""Admin"", ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-31 18:33:53,2023-05-31 18:34:07,14.171s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Admin_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:34:07,2023-05-31 18:34:09,1.368s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"")",Chrome 113.0.0.0,,,2023-05-31 18:34:09,2023-05-31 18:34:09,0.627s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/span_Job_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:34:09,2023-05-31 18:34:11,1.779s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/a_Job Titles""))",Chrome 113.0.0.0,,,2023-05-31 18:34:11,2023-05-31 18:34:12,1.072s,PASSED
+"click(findTestObject(""PROJECT WEB/Job Titles/button_Add_JT""))",Chrome 113.0.0.0,,,2023-05-31 18:34:12,2023-05-31 18:34:15,2.294s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/input_Job Title""), """")",Chrome 113.0.0.0,,,2023-05-31 18:34:15,2023-05-31 18:34:16,1.564s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_Job Description_JT""), ""Supervise People"")",Chrome 113.0.0.0,,,2023-05-31 18:34:16,2023-05-31 18:34:17,0.700s,PASSED
+"uploadFile(findTestObject(""PROJECT WEB/Job Titles/div_InputFile""), ""C:\Users\Aiman Hakim\Downloads\Job Description Dummy.pdf"")",Chrome 113.0.0.0,,,2023-05-31 18:34:17,2023-05-31 18:34:17,0.362s,PASSED
+"setText(findTestObject(""PROJECT WEB/Job Titles/textarea_For Note_JT""), ""Good Luck"")",Chrome 113.0.0.0,,,2023-05-31 18:34:17,2023-05-31 18:34:18,0.802s,PASSED
+"click(findTestObject(""Object Repository/PROJECT WEB/Job Titles/button_Save""))",Chrome 113.0.0.0,,,2023-05-31 18:34:18,2023-05-31 18:34:18,0.452s,PASSED
+"verifyElementPresent(findTestObject(""PROJECT WEB/Job Titles/span_Required_JT""), 0)",Chrome 113.0.0.0,,,2023-05-31 18:34:18,2023-05-31 18:34:19,0.456s,PASSED

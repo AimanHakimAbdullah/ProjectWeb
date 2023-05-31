@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="96.194166">
+<testcase classname="Add New Language_BDD" name="Successfully add new language" time="25.128464">
+<system-out><![CDATA[Given User is navigated to Language Page....................................passed
+When User clicks on the Add Language button.................................passed
+And User enters preferred language Malay....................................passed
+And User clicks on Save button at Language page.............................passed
+Then User able to add and save Language successfully........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Language_BDD" name="Successfully add new language 2" time="23.098354">
+<system-out><![CDATA[Given User is navigated to Language Page....................................passed
+When User clicks on the Add Language button.................................passed
+And User enters preferred language Tamil....................................passed
+And User clicks on Save button at Language page.............................passed
+Then User able to add and save Language successfully........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Language_BDD" name="Fail to add existing language" time="22.41618">
+<system-out><![CDATA[Given User is navigated to Language Page....................................passed
+When User clicks on the Add Language button.................................passed
+And User enters exist language Russian......................................passed
+And User clicks on Save button at Language page.............................passed
+Then User is shown popup messages on already exist..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Language_BDD" name="Language leave blank" time="25.551168">
+<system-out><![CDATA[Given User is navigated to Language Page....................................passed
+When User clicks on the Add Language button.................................passed
+And User clicks on Save button at Language page.............................passed
+Then User is shown with messages on required................................passed
+]]></system-out>
+</testcase>
+</testsuite>

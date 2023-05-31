@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="F7_Language_BDD" time="97.137" tests="1" failures="0" errors="0">
+   <testsuite name="F7_Language_BDD" tests="1" failures="0" errors="0" time="97.137" skipped="0" timestamp="2023-05-31 00:31:39" hostname="Aiman Hakim - DESKTOP-1FDN2RP" id="Test Suites/F7_Language_BDD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230531_003127\\F7_Language_BDD\\20230531_003127"/>
+         <property name="logFiles" value="C:\\Users\\Aiman Hakim\\Katalon Studio\\PROJECT WEB_ASSESSMENT PROTEGE\\Reports\\20230531_003127\\F7_Language_BDD\\20230531_003127\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aiman Hakim - DESKTOP-1FDN2RP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="a96189ba8bec2550767b4fc94664c2de"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PROJECT WEB/F7_Languages-BDD/AddNewLanguage" time="96.772" classname="Test Cases/PROJECT WEB/F7_Languages-BDD/AddNewLanguage" status="PASSED">
+         <system-out><![CDATA[2023-05-31 00:31:39 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/F7_Languages-BDD/AddNewLanguage: Test Cases/PROJECT WEB/F7_Languages-BDD/AddNewLanguage
+
+2023-05-31 00:31:40 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Add New Language_BDD.feature"): Feature file: 'Include/features/Add New Language_BDD.feature' was passed
+
+2023-05-31 00:31:40 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Add New Language_BDD.feature' and extract report to folder: 'C:\Users\Aiman Hakim\Katalon Studio\PROJECT WEB_ASSESSMENT PROTEGE\Reports\20230531_003127\F7_Language_BDD\20230531_003127/cucumber_report/1685464300236'...
+
+2023-05-31 00:31:41 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Successfully add new language: SCENARIO Successfully add new language
+
+2023-05-31 00:31:41 - [TEST_STEP][PASSED] - User is navigated to Language Page: User is navigated to Language Page
+
+2023-05-31 00:31:41 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 00:31:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 00:31:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 00:31:42 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 00:31:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 00:31:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 00:31:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 00:31:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 00:31:46 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:31:52 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:31:52 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:31:53 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:31:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:31:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:31:54 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:31:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:31:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:31:58 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:31:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 00:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/span_Admin' is clicked on
+
+2023-05-31 00:32:00 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 00:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/span_Qualifications' is clicked on
+
+2023-05-31 00:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/a_Languages' is clicked on
+
+2023-05-31 00:32:03 - [MESSAGE][PASSED] - User is navigated to Language Page
+
+2023-05-31 00:32:03 - [TEST_STEP][PASSED] - User clicks on the Add Language button: User clicks on the Add Language button
+
+2023-05-31 00:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/button_AddLanguage' is clicked on
+
+2023-05-31 00:32:04 - [MESSAGE][PASSED] - User clicks on the Add Language button
+
+2023-05-31 00:32:04 - [TEST_STEP][PASSED] - User enters preferred language Malay: User enters preferred language Malay
+
+2023-05-31 00:32:06 - [MESSAGE][PASSED] - Text 'Malay' is set on object 'Object Repository/PROJECT WEB/AddNewLanguage/input_NameLanguage'
+
+2023-05-31 00:32:06 - [MESSAGE][PASSED] - User enters preferred language Malay
+
+2023-05-31 00:32:06 - [TEST_STEP][PASSED] - User clicks on Save button at Language page: User clicks on Save button at Language page
+
+2023-05-31 00:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/button_Save' is clicked on
+
+2023-05-31 00:32:07 - [MESSAGE][PASSED] - User clicks on Save button at Language page
+
+2023-05-31 00:32:07 - [TEST_STEP][PASSED] - User able to add and save Language successfully: User able to add and save Language successfully
+
+2023-05-31 00:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/p_Successfully Saved' is clicked on
+
+2023-05-31 00:32:09 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-31 00:32:09 - [MESSAGE][PASSED] - User able to add and save Language successfully
+
+2023-05-31 00:32:09 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Successfully add new language: SCENARIO Successfully add new language
+
+2023-05-31 00:32:09 - [TEST_STEP][PASSED] - User is navigated to Language Page: User is navigated to Language Page
+
+2023-05-31 00:32:09 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 00:32:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 00:32:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 00:32:09 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 00:32:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 00:32:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 00:32:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 00:32:10 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 00:32:10 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:32:16 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:32:16 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:32:18 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:32:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:32:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:32:18 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:32:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:32:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:32:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 00:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/span_Admin' is clicked on
+
+2023-05-31 00:32:24 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 00:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/span_Qualifications' is clicked on
+
+2023-05-31 00:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/a_Languages' is clicked on
+
+2023-05-31 00:32:26 - [MESSAGE][PASSED] - User is navigated to Language Page
+
+2023-05-31 00:32:26 - [TEST_STEP][PASSED] - User clicks on the Add Language button: User clicks on the Add Language button
+
+2023-05-31 00:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/button_AddLanguage' is clicked on
+
+2023-05-31 00:32:28 - [MESSAGE][PASSED] - User clicks on the Add Language button
+
+2023-05-31 00:32:28 - [TEST_STEP][PASSED] - User enters preferred language Tamil: User enters preferred language Tamil
+
+2023-05-31 00:32:30 - [MESSAGE][PASSED] - Text 'Tamil' is set on object 'Object Repository/PROJECT WEB/AddNewLanguage/input_NameLanguage'
+
+2023-05-31 00:32:30 - [MESSAGE][PASSED] - User enters preferred language Tamil
+
+2023-05-31 00:32:30 - [TEST_STEP][PASSED] - User clicks on Save button at Language page: User clicks on Save button at Language page
+
+2023-05-31 00:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/button_Save' is clicked on
+
+2023-05-31 00:32:30 - [MESSAGE][PASSED] - User clicks on Save button at Language page
+
+2023-05-31 00:32:30 - [TEST_STEP][PASSED] - User able to add and save Language successfully: User able to add and save Language successfully
+
+2023-05-31 00:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/p_Successfully Saved' is clicked on
+
+2023-05-31 00:32:33 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-31 00:32:33 - [MESSAGE][PASSED] - User able to add and save Language successfully
+
+2023-05-31 00:32:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Fail to add existing language: SCENARIO Fail to add existing language
+
+2023-05-31 00:32:33 - [TEST_STEP][PASSED] - User is navigated to Language Page: User is navigated to Language Page
+
+2023-05-31 00:32:33 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 00:32:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 00:32:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 00:32:33 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 00:32:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 00:32:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 00:32:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 00:32:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 00:32:34 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:32:40 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:32:40 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:32:42 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:32:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:32:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:32:42 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:32:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:32:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:32:46 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:32:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 00:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/span_Admin' is clicked on
+
+2023-05-31 00:32:48 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 00:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/span_Qualifications' is clicked on
+
+2023-05-31 00:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/a_Languages' is clicked on
+
+2023-05-31 00:32:51 - [MESSAGE][PASSED] - User is navigated to Language Page
+
+2023-05-31 00:32:51 - [TEST_STEP][PASSED] - User clicks on the Add Language button: User clicks on the Add Language button
+
+2023-05-31 00:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/button_AddLanguage' is clicked on
+
+2023-05-31 00:32:52 - [MESSAGE][PASSED] - User clicks on the Add Language button
+
+2023-05-31 00:32:52 - [TEST_STEP][PASSED] - User enters exist language Russian: User enters exist language Russian
+
+2023-05-31 00:32:53 - [MESSAGE][PASSED] - Text 'Russian' is set on object 'Object Repository/PROJECT WEB/AddNewLanguage/input_NameLanguage'
+
+2023-05-31 00:32:53 - [MESSAGE][PASSED] - User enters exist language Russian
+
+2023-05-31 00:32:53 - [TEST_STEP][PASSED] - User clicks on Save button at Language page: User clicks on Save button at Language page
+
+2023-05-31 00:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/button_Save' is clicked on
+
+2023-05-31 00:32:54 - [MESSAGE][PASSED] - User clicks on Save button at Language page
+
+2023-05-31 00:32:54 - [TEST_STEP][PASSED] - User is shown popup messages on already exist: User is shown popup messages on already exist
+
+2023-05-31 00:32:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:32:54 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/AddNewLanguage/span_Already exists' is present
+
+2023-05-31 00:32:55 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-31 00:32:55 - [MESSAGE][PASSED] - User is shown popup messages on already exist
+
+2023-05-31 00:32:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Language leave blank: SCENARIO Language leave blank
+
+2023-05-31 00:32:55 - [TEST_STEP][PASSED] - User is navigated to Language Page: User is navigated to Language Page
+
+2023-05-31 00:32:55 - [TEST_CASE][PASSED] - Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P): Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)
+
+2023-05-31 00:32:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 00:32:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 00:32:55 - [MESSAGE][INFO] - User set preference: ['--window-size=1920,1080', '0']
+
+2023-05-31 00:32:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 00:32:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 00:32:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-31 00:32:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-31 00:32:56 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:33:02 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-05-31 00:33:02 - [TEST_STEP][PASSED] - setText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Username"), username): Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:33:04 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Username'
+
+2023-05-31 00:33:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/input_Password"), password): Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:33:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/input_Password'
+
+2023-05-31 00:33:04 - [TEST_STEP][PASSED] - click(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/button_Login")): Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/button_Login' is clicked on
+
+2023-05-31 00:33:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:33:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:33:08 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/Common/Page_OrangeHRM/h6_Dashboard' is present
+
+2023-05-31 00:33:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PROJECT WEB/Common/F1_LoginFeatures/LF1_TC1_SUCCESSFULY LOGIN (P)' successfully
+
+2023-05-31 00:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/span_Admin' is clicked on
+
+2023-05-31 00:33:10 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers' successfully
+
+2023-05-31 00:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/span_Qualifications' is clicked on
+
+2023-05-31 00:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/a_Languages' is clicked on
+
+2023-05-31 00:33:12 - [MESSAGE][PASSED] - User is navigated to Language Page
+
+2023-05-31 00:33:12 - [TEST_STEP][PASSED] - User clicks on the Add Language button: User clicks on the Add Language button
+
+2023-05-31 00:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/button_AddLanguage' is clicked on
+
+2023-05-31 00:33:14 - [MESSAGE][PASSED] - User clicks on the Add Language button
+
+2023-05-31 00:33:14 - [TEST_STEP][PASSED] - User clicks on Save button at Language page: User clicks on Save button at Language page
+
+2023-05-31 00:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PROJECT WEB/AddNewLanguage/button_Save' is clicked on
+
+2023-05-31 00:33:15 - [MESSAGE][PASSED] - User clicks on Save button at Language page
+
+2023-05-31 00:33:15 - [TEST_STEP][PASSED] - User is shown with messages on required: User is shown with messages on required
+
+2023-05-31 00:33:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 00:33:15 - [MESSAGE][PASSED] - Object 'Object Repository/PROJECT WEB/AddNewLanguage/span_Required' is present
+
+2023-05-31 00:33:16 - [MESSAGE][PASSED] - Browser is closed
+
+2023-05-31 00:33:16 - [MESSAGE][PASSED] - User is shown with messages on required
+
+2023-05-31 00:33:16 - [MESSAGE][PASSED] - Feature file: 'Include/features/Add New Language_BDD.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-31 00:31:39 - [TEST_SUITE][PASSED] - F7_Language_BDD: Test Cases/PROJECT WEB/F7_Languages-BDD/AddNewLanguage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
